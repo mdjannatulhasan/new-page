@@ -61,6 +61,11 @@ body,html, #wrapper{
     background-color: #FFF;
     padding: 0 0 !important;
 }
+
+ul.b-crumbs > li a:hover {
+    border-color: #ffffff !important;
+}
+
 @media only screen and (max-width:993px) {
     #header.dark {
         background-color: #333!important;
