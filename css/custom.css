@@ -71,13 +71,15 @@ ul.b-crumbs > li a:hover {
 .header-row{
     border-radius: 2px !important;
 }
-#header-wrap:hover .header-row{
-    border-bottom-left-radius: 0 !important;
-    border-bottom-right-radius: 0 !important;
+#header-wrap .sub-menu:hover .header-row{
+    /* border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important; */
 }
 .mega-menu-content.mega-menu-style-2{
     border-bottom-left-radius: 2px !important;
+    /* border-radius: 2px !important; */
     border-bottom-right-radius: 2px !important;
+    margin-top: -2px !important;
 }
 @media only screen and (max-width:993px) {
     #header.dark {
