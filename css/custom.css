@@ -1,0 +1,95 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+body,html, #wrapper{
+    background-color: #F3F4F8 !important;
+}
+#page-title {
+    position: relative;
+    padding: 0 !important;
+    background-color: transparent !important;
+}
+#page-title .container {
+    position: relative !important;
+    padding: 3.5rem 12px !important;
+    background-color: #F9F9FA !important;
+}
+.dark.transparent-header .container, .dark #header-wrap, #header.dark{
+	background-color:transparent !important;
+}
+.transparent-header.floating-header .container > div{
+    background-color: #FFFFFF;
+}
+.transparent-header.floating-header .container {
+    background-color: transparent !important;
+}
+#header.dark .container > div{
+    background-color: #333 !important;
+}
+#header .container{
+    padding: 0 12px !important;
+}
+#header .container > div{
+    padding: 0 20px !important;
+}
+#header{
+    border-bottom: 0px solid transparent !important;;
+}
+#slider{
+    z-index: 0 !important;
+}
+.prop-b-crumbs{
+    padding: 0 20px !important;
+}
+.prop-b-crumbs *, .prop-b-crumbs li::after{
+    color: #FFFFFF !important;
+}
+#top-lifted{
+    margin-top: -160px;
+}
+.min-vh-85{
+    min-height: 85vh;
+}
+.header-overlay::after {
+    z-index: 2 !important;
+}
+.transparent-header.floating-header .container {
+    background-color: #FFF;
+    padding: 0 0 !important;
+}
+@media only screen and (max-width:993px) {
+    #header.dark {
+        background-color: #333!important;
+        
+    }
+    .header-row{
+        align-items: center !important;
+    }
+    
+}
+@media only screen and (min-width:1200px) {
+    #header.floating-header .mega-menu-content {
+        max-width: 1140px !important;
+    }
+}
+@media only screen and (min-width:1400px) {
+    #header.floating-header .mega-menu-content {
+        max-width: 1320px !important;
+    }
+}
+
+
+
+#header.floating-header .mega-menu-content {
+    max-width: 960px !important;
+}
+#header.dark.floating-header .mega-menu-content {
+    width: calc(100% - var(--menu-gap, 30px) ) !important;
+    margin: 0;
+    max-width: 1296px !important;
+}
+}
