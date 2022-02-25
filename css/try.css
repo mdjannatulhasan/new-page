@@ -1,3 +1,139 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+body,html, #wrapper{
+    background-color: #F3F4F8 !important;
+}
+#page-title {
+    position: relative;
+    padding: 0 !important;
+    background-color: transparent !important;
+}
+#page-title .container {
+    position: relative !important;
+    padding: 3.5rem 12px !important;
+    background-color: #F9F9FA !important;
+}
+#slider{
+    z-index: 0 !important;
+}
+.prop-b-crumbs{
+    padding: 0 20px !important;
+}
+.prop-b-crumbs *, .prop-b-crumbs li::after{
+    color: #FFFFFF !important;
+}
+#top-lifted{
+    margin-top: -160px;
+}
+.min-vh-85{
+    min-height: 85vh;
+}
+.header-overlay::after {
+    z-index: 2 !important;
+}
+.transparent-header.floating-header .container {
+    background-color: #FFF;
+    padding: 0 0 !important;
+}
+
+ul.b-crumbs > li a:hover {
+    border-color: #ffffff !important;
+}
+
+
+#logo a img{
+    height: 70px !important;
+}
+
+#headerNew{
+    position: fixed;
+    z-index: 5;
+    width:100%;
+    top: 15px;
+}
+#headerNew.fixed-custom{
+    position: fixed !important;
+    top: 15px;
+}
+#headerNew.fixed-custom .header-extras *{
+    color: #FFFFFF;
+}
+
+#headerNew.fixed-custom .menu-container > .menu-item > .menu-link {
+    color: #FFFFFF;
+    display: flex;
+}
+#headerNew.fixed-custom .menu-container > .menu-item:hover > .menu-link, #headerNew.fixed-custom .header-extras *:hover{
+    color: #ba1818 !important;
+}
+#headerNew .i-plain{
+    text-shadow: none !important;
+}
+#headerNew .header-row{
+    border-radius: 2px;
+    padding: 0 12px;
+}
+#headerNew:hover .header-row, #headerNew.scrolled .header-row{
+    background-color: #ffffff;
+}
+#headerNew:hover.fixed-custom .menu-container > .menu-item > .menu-link,
+#headerNew:hover.fixed-custom .header-extras * ,
+#headerNew.scrolled .header-extras * ,
+#headerNew.scrolled .menu-container > .menu-item > .menu-link
+
+{
+    color: #444444;
+}
+
+@media only screen and (max-width:992px) {
+    #headerNew, #headerNew.fixed-custom{
+        position: relative !important;
+        top: unset;
+        background: #333 !important;
+
+    }
+}
+@media only screen and (min-width:993px) {
+    #header.dark {
+        background-color: #333!important;
+        
+    }
+    .header-row{
+        align-items: center !important;
+    }
+    #headerNew .menu-container > .menu-item > .menu-link {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    
+}
+@media only screen and (min-width:1200px) {
+    #header.floating-header .mega-menu-content {
+        max-width: 1140px !important;
+    }
+}
+@media only screen and (min-width:1400px) {
+    #header.floating-header .mega-menu-content {
+        max-width: 1320px !important;
+    }
+}
+
+
+#header.floating-header .mega-menu-content {
+    max-width: 960px !important;
+}
+#header.dark.floating-header .mega-menu-content {
+    width: calc(100% - var(--menu-gap, 30px) ) !important;
+    margin: 0;
+    max-width: 1296px !important;
+}
+}
+
 
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
@@ -48,8 +184,7 @@
 
 <!--<body class="stretched modal-subscribe-bottom sticky-footer"> -->
 
-<body class="stretched" data-spy="scroll" <!-- data-target="#navbar-example3" data-scroll-animation="true" class: doc
-	modal-subscribe-bottom wide-container-->
+<body class="">
 
 	<!-- Document Wrapper
 	============================================= -->
@@ -57,9 +192,8 @@
 
 		<!-- Header
 		============================================= -->
-		<header id="header" class="dark transparent-header floating-header header-size-custom"
-			data-sticky-shrink="false" data-sticky-class="not-dark">
-			<div id="header-wrap">
+		<section id="headerNew" class="fixed-custom">
+			<div id="header-wrapper">
 				<div class="container">
 					<div class="header-row justify-content-lg-between">
 						<!-- Logo
@@ -118,6 +252,7 @@
 									</a></li>
 								<li class="menu-item mega-menu"><a class="menu-link" href="demo-store-products.html">
 										<div>Kanada</div>
+										<i class="icon-angle-down ms-1"></i>
 									</a>
 									<div class="mega-menu-content mega-menu-style-2">
 										<div class="container">
@@ -242,7 +377,7 @@
 									</div>
 								</li><!-- .mega-menu end -->
 								<li class="menu-item mega-menu"><a class="menu-link" href="demo-store-products.html">
-										<div>Schüleraustausch</div>
+										<div>Schüleraustausch</div><i class="icon-angle-down ms-1"></i>
 									</a>
 									<div class="mega-menu-content mega-menu-style-2">
 										<div class="container">
@@ -327,7 +462,7 @@
 								</li><!-- .mega-menu end -->
 								<!--<li class="menu-item"><a class="menu-link" href="demo-store-products.html"><div>Women</div></a></li>-->
 								<li class="menu-item mega-menu"><a class="menu-link" href="#">
-										<div>Kontakt</div>
+										<div>Kontakt</div><i class="icon-angle-down ms-1"></i>
 									</a>
 									<div class="mega-menu-content mega-menu-style-2">
 										<div class="container">
@@ -412,9 +547,8 @@
 				</div>
 
 			</div>
-			<div class="header-wrap-clone"></div>
 
-		</header><!-- #header end -->
+		</section><!-- #header end -->
 
 
 
@@ -1022,13 +1156,8 @@
 	============================================= -->
 	<script src="js/jquery.js"></script>
 
-	<!-- zoomslider
-	============================================= -->
-	<script src="demos/zoomslider/theme.js"></script> <!-- (clean)-->
+	
 
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
 
 
 
@@ -1050,39 +1179,15 @@
 	<script src="js/markerclusterer.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhAYvx0GmLyN5hlf6Uv_e9pPvUT3YpozE"></script>
 	<script src="js/google-maps.js"></script>
-	<script>
-		$(document).ready(changeHeaderColor);
-		$(window).on('resize', changeHeaderColor);
-
-		function changeHeaderColor() {
-			if (jQuery(window).width() > 991.98) {
-				jQuery("#header").hover(
-					function () {
-						if (!$(this).hasClass("sticky-header")) {
-							$(this).addClass("hover-light").removeClass("dark");
-							SEMICOLON.header.logo();
-						}
-						$("#wrapper").addClass("header-overlay");
-					}, function () {
-						if (!$(this).hasClass("sticky-header")) {
-							$(this).removeClass("hover-light").addClass("dark");
-							SEMICOLON.header.logo();
-						}
-						$("#wrapper").removeClass("header-overlay");
-					}
-				);
-			}
-		};
-
-		$(function () {
-			$(document).scroll(function () {
-				var $nav = $("#header");
-				$nav.removeClass('dark', $(this).scrollTop() > 0);
-				// $nav.addClass('dark', $(this).scrollTop() <= 0);
-			});
+	
+<script>
+	$(function () {
+  	$(document).scroll(function () {
+			var $nav = $("#headerNew");
+			$nav.toggleClass('scrolled', $(this).scrollTop() > 0);
 		});
-	</script>
-
+		});
+</script>
 </body>
 
 </html>

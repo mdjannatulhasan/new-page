@@ -5922,9 +5922,6 @@ PADDING IN MOBILE
 .agent-about .agent-about-ttl b {
     color: #767e8d;
 }
-
-
-
 @media only screen and (max-width : 1229px) {
     .agent-detail .agent-detail-social li {
         margin-right: 38px;

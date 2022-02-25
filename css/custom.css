@@ -24,12 +24,15 @@ body,html, #wrapper{
 .transparent-header.floating-header .container > div{
     background-color: #FFFFFF;
 }
+.dark.transparent-header.floating-header .container > div{
+    background-color: transparent !important;
+}
 .transparent-header.floating-header .container {
     background-color: transparent !important;
 }
-#header.dark .container > div{
+/* #header.dark .container > div{
     background-color: #333 !important;
-}
+} */
 #header .container{
     padding: 0 12px !important;
 }
@@ -65,7 +68,17 @@ body,html, #wrapper{
 ul.b-crumbs > li a:hover {
     border-color: #ffffff !important;
 }
-
+.header-row{
+    border-radius: 2px !important;
+}
+#header-wrap:hover .header-row{
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+.mega-menu-content.mega-menu-style-2{
+    border-bottom-left-radius: 2px !important;
+    border-bottom-right-radius: 2px !important;
+}
 @media only screen and (max-width:993px) {
     #header.dark {
         background-color: #333!important;
@@ -76,25 +89,35 @@ ul.b-crumbs > li a:hover {
     }
     
 }
+@media (min-width: 992px){
+
+    .header-size-custom .menu-container > .menu-item > .menu-link {
+        padding-top: 24px !important;
+        padding-bottom: 24px !important;
+    }
+}
+@media (min-width: 992px){
+    #header.floating-header .mega-menu-content {
+        max-width: 936px !important;
+    }
+    #header.floating-header .mega-menu-content {
+        width: 100% !important;
+        margin: 0;max-width: 936px !important;
+    }
+}
 @media only screen and (min-width:1200px) {
     #header.floating-header .mega-menu-content {
-        max-width: 1140px !important;
+        max-width: 1116px !important;width: 100% !important;
     }
 }
 @media only screen and (min-width:1400px) {
     #header.floating-header .mega-menu-content {
-        max-width: 1320px !important;
+        max-width: 1296px !important;width: 100% !important;
     }
 }
+.header-size-custom #logo img {
+    height: 70px !important;
+}
 
 
 
-#header.floating-header .mega-menu-content {
-    max-width: 960px !important;
-}
-#header.dark.floating-header .mega-menu-content {
-    width: calc(100% - var(--menu-gap, 30px) ) !important;
-    margin: 0;
-    max-width: 1296px !important;
-}
-}
