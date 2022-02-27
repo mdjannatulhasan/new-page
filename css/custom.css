@@ -134,7 +134,7 @@ ul.b-crumbs > li a:hover {
 #property-slider{
     border-radius: 3px;
     
-    margin-bottom: 50px !important;
+    margin-bottom: 70px !important;
 }
 #property-slider.swiper-container:hover .swiper-button-prev, #property-slider.swiper-container:hover .swiper-button-next {
     display: block !important;
@@ -165,7 +165,8 @@ ul.b-crumbs > li a:hover {
     position: relative;
     overflow: hidden;
     min-height: 160px;
-    border-radius: 2px;
+    border-radius: 3px;
+    margin-top: -68px;
 }
 .video-bg .video-header{
     position: absolute;
