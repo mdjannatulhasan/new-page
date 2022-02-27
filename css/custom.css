@@ -60,6 +60,7 @@ body,html, #wrapper{
 }
 .min-vh-85{
     min-height: 105vh;
+    max-height: 1000px;
 }
 
 ul.b-crumbs > li a:hover {
