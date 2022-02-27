@@ -134,6 +134,9 @@ ul.b-crumbs > li a:hover {
     padding-top: 25px;
     border-top: 1px solid #e1e5ee;
 }
+#property-slider{
+    border-radius: 3px;
+}
 #property-slider.swiper-container:hover .swiper-button-prev, #property-slider.swiper-container:hover .swiper-button-next {
     display: block !important;
 }
@@ -147,6 +150,7 @@ ul.b-crumbs > li a:hover {
     padding: 10px;
     background-image: none !important;
     display: none;
+    border-radius: 3px;
 }
 .after-prev{
     height: 100%;
