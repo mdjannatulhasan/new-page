@@ -54,8 +54,9 @@ body,html, #wrapper{
 #top-lifted{
     margin-top: -60px;
 }
-.min-vh-85{
-    min-height: 85vh;
+.v-padding{
+    /* min-height: 85vh; */
+    padding: 180px 0;
 }
 .header-overlay::after {
     z-index: 2 !important;
@@ -86,8 +87,8 @@ ul.b-crumbs > li a:hover {
 }
 .mainmenu3 > ul > li.active:before {
     
-    border-right: 10px solid #c92020;
-    border-bottom: 20px solid #c92020;
+    border-right: 10px solid #3357b4;
+    border-bottom: 20px solid #3357b4;
 }
 .special-marked{
     color:#ffffff !important;
@@ -113,10 +114,19 @@ ul.b-crumbs > li a:hover {
 .mainmenu3 > ul > li{
     margin: 15px 0 !important;
 }
-.submenu1.mainmenu3 ul{
+.submenu1.mainmenu3 > ul{
     display: flex;
     justify-content: center;
     gap: 20px !important;
+}
+.slider-text{
+    max-width: 700px;
+}
+.swiper-slide{
+    align-self: stretch !important;
+}
+#slider{
+    height: 100%;
 }
 @media only screen and (max-width:993px) {
     #header.dark {

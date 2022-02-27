@@ -1,6 +1,6 @@
 <?php
 
-header ("Content-Type:text/css");
+header("Content-Type:text/css");
 
 /** ===============================================================
  *
@@ -9,7 +9,7 @@ header ("Content-Type:text/css");
  *
  ================================================================== */
 
-$color = "#C92020"; // Change your Color Here
+$color = "#3357b4"; // Change your Color Here
 
 /** ===============================================================
  *
@@ -18,10 +18,10 @@ $color = "#C92020"; // Change your Color Here
  *
  ================================================================== */
 
-function checkhexcolor($color) {
+function checkhexcolor($color)
+{
 
 	return preg_match('/^#[a-f0-9]{6}$/i', $color);
-
 }
 
 /** ===============================================================
@@ -30,29 +30,29 @@ function checkhexcolor($color) {
  *
  ================================================================== */
 
-if( isset( $_GET[ 'color' ] ) AND $_GET[ 'color' ] != '' ) {
-	$color = "#" . $_GET[ 'color' ];
+if (isset($_GET['color']) and $_GET['color'] != '') {
+	$color = "#" . $_GET['color'];
 }
 
-if( !$color OR !checkhexcolor( $color ) ) {
-	$color = "#C92020"; 
+if (!$color or !checkhexcolor($color)) {
+	$color = "#3357b4";
 }
 
 ?>
 
 
 /* ----------------------------------------------------------------
-	Colors
+Colors
 
-	Replace the HEX Code with your Desired Color HEX
+Replace the HEX Code with your Desired Color HEX
 -----------------------------------------------------------------*/
 
 
-/*::selection { background: #c92020; }
+/*::selection { background: #3357b4; }
 
-::-moz-selection { background: #c92020; }
+::-moz-selection { background: #3357b4; }
 
-::-webkit-selection { background: #c92020; }*/
+::-webkit-selection { background: #3357b4; }*/
 
 ::selection { background: #555; }
 
@@ -114,7 +114,7 @@ h6 > span:not(.nocolor):not(.badge),
 .dark .product-title h3 a:hover,
 .dark .single-product .product-title h2 a:hover,
 .dark .product-price ins,
-.dark .tab-nav-lg li.ui-tabs-active a { color: #c92020; }
+.dark .tab-nav-lg li.ui-tabs-active a { color: #3357b4; }
 
 .color,
 .h-text-color:hover,
@@ -124,7 +124,7 @@ a.h-text-color:hover,
 .tagcloud a:hover,
 .nav-tree li:hover > a,
 .nav-tree li.current > a,
-.nav-tree li.active > a { color: #c92020 !important; }
+.nav-tree li.active > a { color: #3357b4 !important; }
 
 .top-cart-number::before,
 #page-menu-wrap,
@@ -182,14 +182,14 @@ input.switch-toggle-flat:checked + label::after,
 .widget-filter-links li.active-filter span,
 .page-item.active .page-link,
 .page-link:hover,
-.page-link:focus { background-color: #c92020 !important; }
+.page-link:focus { background-color: #3357b4 !important; }
 
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-themecolor,
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-themecolor,
 .checkbox-style:checked + .checkbox-style-1-label::before,
 .checkbox-style:checked + .checkbox-style-2-label::before,
 .checkbox-style:checked + .checkbox-style-3-label::before,
-.radio-style:checked + .radio-style-3-label::before { background: #c92020; }
+.radio-style:checked + .radio-style-3-label::before { background: #3357b4; }
 
 .irs-bar,
 .irs-from,
@@ -197,7 +197,7 @@ input.switch-toggle-flat:checked + label::after,
 .irs-single,
 .irs-handle > i:first-child,
 .irs-handle.state_hover > i:first-child,
-.irs-handle:hover > i:first-child { background-color: #c92020 !important; }
+.irs-handle:hover > i:first-child { background-color: #3357b4 !important; }
 
 .top-cart-item-image:hover,
 .grid-filter.style-3 li.activeFilter a,
@@ -209,20 +209,20 @@ input.switch-toggle-flat:checked + label::after,
 .heading-block.border-color::after,
 .page-item.active .page-link,
 .page-link:focus,
-.dark .cart-product-thumbnail img:hover { border-color: #c92020; }
+.dark .cart-product-thumbnail img:hover { border-color: #3357b4; }
 
 .border-color,
 .process-steps li.active a,
 .process-steps li.ui-tabs-active a,
 .tagcloud a:hover,
-.page-link:hover { border-color: #c92020 !important; }
+.page-link:hover { border-color: #3357b4 !important; }
 
 .top-links-sub-menu,
 .top-links-section,
 .tabs-tb .tab-nav li.ui-tabs-active a,
 .dark .top-links-sub-menu,
 .dark .top-links-section,
-.dark .tabs-tb .tab-nav li.ui-tabs-active a { border-top-color: #c92020; }
+.dark .tabs-tb .tab-nav li.ui-tabs-active a { border-top-color: #3357b4; }
 
 .title-border-color::before,
 .title-border-color::after,
@@ -231,20 +231,20 @@ input.switch-toggle-flat:checked + label::after,
 .irs-to::after,
 .irs-from::before,
 .irs-to::before,
-.irs-single::before { border-top-color: #c92020 !important; }
+.irs-single::before { border-top-color: #3357b4 !important; }
 
-.title-block { border-left-color: #c92020; }
+.title-block { border-left-color: #3357b4; }
 
 .rtl .title-block {
-	border-left-color: transparent;
-	border-right-color: #c92020;
+border-left-color: transparent;
+border-right-color: #3357b4;
 }
 
-.title-block-right { border-right-color: #c92020; }
+.title-block-right { border-right-color: #3357b4; }
 
 .rtl .title-block-right {
-	border-right-color: transparent;
-	border-left-color: #c92020;
+border-right-color: transparent;
+border-left-color: #3357b4;
 }
 
 .more-link,
@@ -254,48 +254,48 @@ input.switch-toggle-flat:checked + label::after,
 .title-bottom-border h3,
 .title-bottom-border h4,
 .title-bottom-border h5,
-.title-bottom-border h6 { border-bottom-color: #c92020; }
+.title-bottom-border h6 { border-bottom-color: #3357b4; }
 
 .fbox-effect.fbox-dark .fbox-icon i::after,
-.dark .fbox-effect.fbox-dark .fbox-icon i::after { box-shadow: 0 0 0 2px #c92020; }
+.dark .fbox-effect.fbox-dark .fbox-icon i::after { box-shadow: 0 0 0 2px #3357b4; }
 
 .fbox-border.fbox-effect.fbox-dark .fbox-icon i:hover,
 .fbox-border.fbox-effect.fbox-dark:hover .fbox-icon i,
 .dark .fbox-border.fbox-effect.fbox-dark .fbox-icon i:hover,
-.dark .fbox-border.fbox-effect.fbox-dark:hover .fbox-icon i { box-shadow: 0 0 0 1px #c92020; }
+.dark .fbox-border.fbox-effect.fbox-dark:hover .fbox-icon i { box-shadow: 0 0 0 1px #3357b4; }
 
 
 @media (min-width: 992px) {
 
-	.sub-menu-container .menu-item:hover > .menu-link,
-	.mega-menu-style-2 .mega-menu-title > .menu-link:hover,
-	.dark .mega-menu-style-2 .mega-menu-title:hover > .menu-link { color: #c92020; }
+.sub-menu-container .menu-item:hover > .menu-link,
+.mega-menu-style-2 .mega-menu-title > .menu-link:hover,
+.dark .mega-menu-style-2 .mega-menu-title:hover > .menu-link { color: #3357b4; }
 
-	.style-3 .menu-container > .menu-item.current > .menu-link,
-	.sub-title .menu-container > .menu-item:hover > .menu-link::after,
-	.sub-title .menu-container > .menu-item.current > .menu-link::after,
-	.page-menu-sub-menu,
-	.dots-menu .page-menu-item.current > a,
-	.dots-menu .page-menu-item div,
-	.dark .style-3 .menu-container > .menu-item.current > .menu-link { background-color: #c92020; }
+.style-3 .menu-container > .menu-item.current > .menu-link,
+.sub-title .menu-container > .menu-item:hover > .menu-link::after,
+.sub-title .menu-container > .menu-item.current > .menu-link::after,
+.page-menu-sub-menu,
+.dots-menu .page-menu-item.current > a,
+.dots-menu .page-menu-item div,
+.dark .style-3 .menu-container > .menu-item.current > .menu-link { background-color: #3357b4; }
 
-	.style-4 .menu-container > .menu-item:hover > .menu-link,
-	.style-4 .menu-container > .menu-item.current > .menu-link,
-	.dots-menu.dots-menu-border .page-menu-item.current > a { border-color: #c92020; }
+.style-4 .menu-container > .menu-item:hover > .menu-link,
+.style-4 .menu-container > .menu-item.current > .menu-link,
+.dots-menu.dots-menu-border .page-menu-item.current > a { border-color: #3357b4; }
 
-	.sub-menu-container,
-	.mega-menu-content,
-	.style-6 .menu-container > .menu-item > .menu-link::after,
-	.style-6 .menu-container > .menu-item.current > .menu-link::after,
-	.top-cart-content,
-	.dark .sub-menu-container,
-	.dark .mega-menu-content,
-	.dark .top-cart-content { border-top-color: #c92020; }
+.sub-menu-container,
+.mega-menu-content,
+.style-6 .menu-container > .menu-item > .menu-link::after,
+.style-6 .menu-container > .menu-item.current > .menu-link::after,
+.top-cart-content,
+.dark .sub-menu-container,
+.dark .mega-menu-content,
+.dark .top-cart-content { border-top-color: #3357b4; }
 
-	.dots-menu .page-menu-item div::after { border-left-color: #c92020; }
+.dots-menu .page-menu-item div::after { border-left-color: #3357b4; }
 
-	.rtl .dots-menu .page-menu-item div::after {
-		border-left-color: transparent;
-		border-right-color: #c92020;
-	}
+.rtl .dots-menu .page-menu-item div::after {
+border-left-color: transparent;
+border-right-color: #3357b4;
+}
 }

@@ -202,7 +202,7 @@
 						<div id="slider" class="slider-element" style="background: linear-gradient(to right, rgba(0,0,0, 0.4) 20%, transparent 100%), url('demos/hostel/images/hero1.jpg') no-repeat center center / cover;">
 
 							<div class="container">
-								<div class="vertical-middle min-vh-85">
+								<div class="vertical-middle v-padding">
 
 									<div class="row justify-content-between">
 										<!--<div class="col-lg-6 col-md-7 dark mb-5 mb-md-0 py-5">-->
@@ -211,8 +211,8 @@
 											<div class="parallax" data-0="transform: translateY(0px); opacity: 1"
 												data-300="transform: translateY(50px); opacity: 0">
 												<!-- col-lg-6-->
-												<h2 id="title-for-height1" class="head-hide fw-bold display-2 mb-0">Calgary</h2>
-												<p class="fw-bold mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aspernatur, ratione debitis nesciunt voluptas minima unde repellendus provident at numquam dolorem sequi molestias iure culpa sunt laudantium sapiente soluta aliquid?
+												<h2 id="head-offset" class="head-hide fw-bold display-2 mb-0">Calgary</h2>
+												<p class="slider-text fw-bold mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aspernatur, ratione debitis nesciunt voluptas minima unde repellendus provident at numquam dolorem sequi molestias iure culpa sunt laudantium sapiente soluta aliquid?
 												Est at labore quibusdam? Totam amet quae enim facere? Id nulla ea enim doloribus dolorem nihil excepturi vel, consectetur earum aliquid dolore quia adipisci expedita dicta, officia laboriosam quam officiis?</p>
 											</div>
 					
@@ -227,8 +227,8 @@
 					<div class="swiper-slide post-slide">
 						<div id="slider" class="slider-element" style="background: linear-gradient(to right, rgba(0,0,0, 0.4) 20%, transparent 100%), url('demos/hostel/images/hero1.jpg') no-repeat center center / cover;">
 
-							<div>
-								<div class="vertical-middle min-vh-85 container">
+							<div class=" v-padding">
+								<div class="vertical-middle container">
 
 									<div class="row justify-content-between">
 										<!--<div class="col-lg-6 col-md-7 dark mb-5 mb-md-0 py-5">-->
@@ -890,12 +890,14 @@
 		};
 		var objH= document.getElementById('slider-hero').offsetHeight;
 		var titleH= document.getElementById('title-fix').offsetHeight;
+		var anotherH= document.getElementById('head-offset').offsetTop;
 		console.log(objH, titleH);
 		console.log((objH - objH/2 - titleH)+'px');
-		document.getElementById('title-fix').style.top = (objH - objH/2 - titleH+8)+'px';
+		// document.getElementById('title-fix').style.top = (objH - objH/2 - titleH+8)+'px';
+		document.getElementById('title-fix').style.top = (anotherH)+'px';
 		document.querySelector('#title-fix h2').style.color = 'red !important';
 		document.getElementById('slider-hero').addEventListener('onresize',function(){
-			document.getElementById('title-fix').style.top = (objH - objH/2 - titleH+8)+'px';
+			document.getElementById('title-fix').style.top = (anotherH)+'px';
 		});
 
 	</script>

@@ -329,7 +329,7 @@ a {
 }
 
 a:hover {
-    color: #c92020;
+    color: #3357b4;
     text-decoration: underline;
 }
 
@@ -3233,7 +3233,7 @@ html[xmlns] .slider-wrap {
 }
 
 .headerlink:hover {
-    color: #c92020;
+    color: #3357b4;
 }
 
 #header {
@@ -3731,7 +3731,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 }
 
 .menu-item:hover > .menu-link, .menu-item.current > .menu-link {
-    color: #c92020;
+    color: #3357b4;
 }
 
 .menu-item.sub-menu > .menu-link > div {
@@ -4072,7 +4072,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
     .sub-menu-container .menu-item:hover > .menu-link {
         background-color: #F9F9F9;
         padding-left: 18px;
-        color: #c92020;
+        color: #3357b4;
     }
 
     .menu-link div > i.icon-angle-down {
@@ -13301,7 +13301,7 @@ blockquote.float-end {
 }
 
 .owl-carousel .owl-nav [class*=owl-]:hover {
-    background-color: #c92020 !important;
+    background-color: #3357b4 !important;
     color: #FFF !important;
     text-decoration: none;
 }
@@ -13532,7 +13532,7 @@ blockquote.float-end {
 }
 
 .owl-carousel .owl-nav [class*=owl-]:hover {
-    background-color: #c92020!important;
+    background-color: #3357b4!important;
     /*var(--owl-nav-bg) /rgb(201,32,32,0.75) */
 }
 

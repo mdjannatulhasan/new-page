@@ -36,7 +36,7 @@
 
 .irs-bar {
     height: 3px; top: 24px;
-    background: #c92020;
+    background: #3357b4;
 }
 /*.irs-bar-edge {
     top: 25px;
@@ -56,7 +56,7 @@
 .irs-slider {
     width: 11px; height: 11px;
     border-radius: 11px;
-    background: #c92020;
+    background: #3357b4;
     top: 20px;
 }
 .irs-slider:after {
@@ -89,7 +89,7 @@
     font-size: 10px; line-height: 1.333;
     text-shadow: none;
     padding: 1px 5px;
-    background: #c92020;
+    background: #3357b4;
     -moz-border-radius: 4px;
     border-radius: 4px;
     cursor: pointer;
@@ -106,7 +106,7 @@
     margin-left: -3px;
     overflow: hidden;
     border: 3px solid transparent;
-    border-top-color: #c92020;
+    border-top-color: #3357b4;
 }
 .irs-single:hover:after,
 .irs-irs-to:hover:after,
