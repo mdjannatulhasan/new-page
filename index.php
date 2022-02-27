@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 
@@ -1020,7 +1021,6 @@
 	<!-- JavaScripts
 	============================================= -->
 	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
 
 	<!-- zoomslider
 	============================================= -->
@@ -1073,6 +1073,7 @@
 				);
 			}
 		};
+
 	</script>
 
 </body>

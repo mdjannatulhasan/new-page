@@ -1,0 +1,899 @@
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+	<!-- Store Demo Specific Stylesheet -->
+	<link rel="stylesheet" href="css/colors.php?color=222222" type="text/css" /> <!-- Store Theme Color -->
+
+	<link rel="stylesheet" href="demos/store/store.css" type="text/css" />
+	<!-- HIER portfolie hovers Store Theme Custom CSS -->
+
+
+	<!-- Hosting Demo Specific Stylesheet (clean) -->
+	<link rel="stylesheet" href="demos/hosting/hosting.css" type="text/css" />
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700%7CRoboto:300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic" rel="stylesheet">
+
+	<script src="https://kit.fontawesome.com/5cbfd0d562.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/ionicons.min.css">
+	<link rel="stylesheet" href="css/chosen.css">
+	<link rel="stylesheet" href="css/swiper.css">
+	<link rel="stylesheet" href="css/ion.rangeSlider.css">
+	<link rel="stylesheet" href="css/ion.rangeSlider.skinFlat.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<title>Store | Canvas</title>
+
+</head>
+
+<!--<body class="stretched modal-subscribe-bottom sticky-footer"> -->
+
+<body class="stretched" data-spy="scroll" <!-- data-target="#navbar-example3" data-scroll-animation="true" class: doc
+	modal-subscribe-bottom wide-container-->
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+		<header class="site-header3 site-header3-white">
+			<a href="index-detailed.html" class="h-logo">
+				<div class="h-logo-inner">
+					<img src="img/logo.png" alt="Powerful Real Estate Theme">
+					<p>Powerful Real Estate Theme</p>
+				</div>
+			</a>
+			<nav class="submenu1 mainmenu3">
+				<ul>
+					<li class="menu-item-has-children">
+						<a href="index-detailed.html">Home</a>
+						<ul class="sub-menu">
+							<li><a href="index-agency.html">Home - Agency</a></li>
+							<li><a href="index-detailed.html">Home - Detailed</a></li>
+							<li><a href="index-banners.html">Home - Banners</a></li>
+							<li><a href="index-multi.html">Home - Multi</a></li>
+							<li><a href="index-booking.html">Home - Booking</a></li>
+							<li><a href="index-map.html">Home - Full Map</a></li>
+						</ul>
+					</li>
+					<li class="menu-item-has-children">
+						<a href="catalog-grid.html">Properties</a>
+						<ul class="sub-menu">
+							<li><a href="catalog-grid.html">Catalog - Grid Style</a></li>
+							<li><a href="catalog-list.html">Catalog - List Style</a></li>
+							<li><a href="property.html">Single Property - Style 1</a></li>
+							<li><a href="property-2.html">Single Property - Style 2</a></li>
+						</ul>
+					</li>
+					<li class="menu-item-has-children">
+						<a href="agents.html">Agents</a>
+						<ul class="sub-menu">
+							<li><a href="agents.html">Agents List</a></li>
+							<li><a href="agent.html">Agent Page</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="elements.html">Elements</a>
+					</li>
+					<li class="menu-item-has-children active">
+						<a href="blog-grid.html">Blog</a>
+						<ul class="sub-menu">
+							<li><a href="blog-grid.html">Grid Style</a></li>
+							<li><a href="blog-list.html">List Style</a></li>
+							<li class="active"><a href="post.html">Single Post</a></li>
+							<li><a href="post-slider-sidebar-right.html">Slider Post</a></li>
+						</ul>
+					</li>
+					<li class="menu-item-has-children">
+						<a href="gallery.html">Pages</a>
+						<ul class="sub-menu">
+							<li><a href="gallery.html">Gallery</a></li>
+							<li><a href="404.html">404 Page</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav><!--
+			NO SPACE
+			--><div class="h-right">
+			<div class="h-right-vert-aligner">
+				<p class="h-phone">1-800-987-6543</p>
+				<p class="h-email"><a href="mailto:support@absolute.com">support@absolute.com</a></p>
+			</div>
+		</div>
+			<div class="mainmenu-btn-wrap" id="mainmenu-btn">
+				<div class="mainmenu-btn">
+					<div class="mainmenu-btn-line"></div>
+					<div class="mainmenu-btn-line"></div>
+					<div class="mainmenu-btn-line"></div>
+					<div class="mainmenu-btn-line"></div>
+				</div>
+				Menu
+			</div>
+		</header>
+		<div class="mainmenu-bg" id="mainmenu-bg"></div>
+		<div id="mainmenu-wrap">
+			<nav id="mainmenu" class="mainmenu">
+				<button id="mainmenu-close" class="mainmenu-close" href="#"><i class="ion-android-close"></i></button>
+				<ul>
+					<li class="menu-item-has-children">
+						<a href="index-detailed.html">Home <i class="fa fa-caret-down"></i></a>
+						<ul class="sub-menu">
+							<li><a href="index-agency.html">Home - Agency</a></li>
+							<li><a href="index-detailed.html">Home - Detailed</a></li>
+							<li><a href="index-banners.html">Home - Banners</a></li>
+							<li><a href="index-multi.html">Home - Multi</a></li>
+							<li><a href="index-booking.html">Home - Booking</a></li>
+							<li><a href="index-map.html">Home - Full Map</a></li>
+						</ul>
+					</li>
+					<li class="menu-item-has-children">
+						<a href="catalog-grid.html">Properties <i class="fa fa-caret-down"></i></a>
+						<ul class="sub-menu">
+							<li><a href="catalog-grid.html">Catalog - Grid Style</a></li>
+							<li><a href="catalog-list.html">Catalog - List Style</a></li>
+							<li><a href="property.html">Single Property - Style 1</a></li>
+							<li><a href="property-2.html">Single Property - Style 2</a></li>
+						</ul>
+					</li>
+					<li class="menu-item-has-children">
+						<a href="agents.html">Agents <i class="fa fa-caret-down"></i></a>
+						<ul class="sub-menu">
+							<li><a href="agents.html">Agents List</a></li>
+							<li><a href="agent.html">Agent Page</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="elements.html">Elements</a>
+					</li>
+					<li class="menu-item-has-children active">
+						<a href="blog-grid.html">Blog <i class="fa fa-caret-down"></i></a>
+						<ul class="sub-menu">
+							<li><a href="blog-grid.html">Grid Style</a></li>
+							<li><a href="blog-list.html">List Style</a></li>
+							<li class="active"><a href="post.html">Single Post</a></li>
+							<li><a href="post-slider-sidebar-right.html">Slider Post</a></li>
+						</ul>
+					</li>
+					<li class="menu-item-has-children">
+						<a href="gallery.html">Pages <i class="fa fa-caret-down"></i></a>
+						<ul class="sub-menu">
+							<li><a href="gallery.html">Gallery</a></li>
+							<li><a href="404.html">404 Page</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="swiper-container post-slider" id="post-slider">
+
+			<div class="swiper-wrapper">
+				<div class="swiper-slide post-slide">
+					<div id="slider" class="slider-element" style="background: linear-gradient(to right, rgba(0,0,0, 0.4) 20%, transparent 100%), url('demos/hostel/images/hero1.jpg') no-repeat center center / cover;">
+
+						<div>
+							<div class="vertical-middle min-vh-85 container">
+
+								<div class="row justify-content-between">
+									<!--<div class="col-lg-6 col-md-7 dark mb-5 mb-md-0 py-5">-->
+									<div class="container dark py-5 py-md-0">
+				
+										<div class="parallax" data-0="transform: translateY(0px); opacity: 1"
+											data-300="transform: translateY(50px); opacity: 0">
+											<!-- col-lg-6-->
+											<h2 class="fw-bold display-2 mb-0">Calgary</h2>
+											<p class="fw-bold mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aspernatur, ratione debitis nesciunt voluptas minima unde repellendus provident at numquam dolorem sequi molestias iure culpa sunt laudantium sapiente soluta aliquid?
+											Est at labore quibusdam? Totam amet quae enim facere? Id nulla ea enim doloribus dolorem nihil excepturi vel, consectetur earum aliquid dolore quia adipisci expedita dicta, officia laboriosam quam officiis?</p>
+										</div>
+				
+									</div>
+								</div>
+				
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="swiper-slide post-slide">
+					<div id="slider" class="slider-element" style="background: linear-gradient(to right, rgba(0,0,0, 0.4) 20%, transparent 100%), url('demos/hostel/images/hero1.jpg') no-repeat center center / cover;">
+
+						<div>
+							<div class="vertical-middle min-vh-85 container">
+
+								<div class="row justify-content-between">
+									<!--<div class="col-lg-6 col-md-7 dark mb-5 mb-md-0 py-5">-->
+									<div class="container dark py-5 py-md-0">
+				
+										<div class="parallax" data-0="transform: translateY(0px); opacity: 1"
+											data-300="transform: translateY(50px); opacity: 0">
+											<!-- col-lg-6-->
+											<h2 class="fw-bold display-2 mb-0">Calgary</h2>
+										</div>
+				
+									</div>
+								</div>
+				
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		
+			<div class="container post-slider-cont">
+				<ul class="b-crumbs">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Real Estate</a></li>
+					<li>Single Post</li>
+				</ul>
+			</div>
+		
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+		
+			<div class="swiper-pagination"></div>
+		
+		</div>
+		<!-- Header
+		============================================= -->
+		
+
+
+
+
+		
+
+
+
+		<!-- Content
+		============================================= -->
+
+		<section id="top-lifted">
+			<div class="container prop-b-crumbs">
+				<ul class="b-crumbs">
+					<li><a href="index-detailed.html">Home</a></li>
+					<li><a href="catalog-grid.html">Catalog</a></li>
+					<li>Single Property</li>
+				</ul>
+			</div>
+			<div class="container">
+				<div class="prop-main">
+					<div class="prop-main-top">
+						<p class="prop-main-loc"><a href="catalog-grid.html">Madrid</a>, <a
+								href="catalog-grid.html">Spain</a></p>
+						<h1 class="prop-main-ttl">Comfortable Apartments 15 Sqrt</h1>
+						<div class="prop-main-rating">
+							<p>Rating</p>
+							<ul>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+							</ul>
+						</div>
+						<div class="prop-main-price-wrap">
+							<p class="prop-main-price-label">Price</p>
+							<p class="prop-main-price"><span class="prop-main-price-val">$1800</span> <span
+									class="prop-main-price-currency">/ month</span></p>
+						</div>
+					</div>
+					<dl class="prop-main-atts">
+						<dt>
+							<span class="prop-i-info-icon"><img src="img/ico-status.png" alt=""></span>
+							Status
+						</dt>
+						<dd><a href="catalog-grid.html">For Rent</a></dd>
+						<dt>
+							<span class="prop-i-info-icon"><img src="img/ico-area.png" alt=""></span>
+							Square Feet
+						</dt>
+						<dd><a href="catalog-grid.html">1500</a></dd>
+						<dt>
+							<span class="prop-i-info-icon"><img src="img/ico-bed.png" alt=""></span>
+							Beds
+						</dt>
+						<dd><a href="catalog-grid.html">4</a></dd>
+						<dt>
+							<span class="prop-i-info-icon"><img src="img/ico-price.png" alt=""></span>
+							Price
+						</dt>
+						<dd><a href="catalog-grid.html">$1600</a></dd>
+						<dt>
+							<span class="prop-i-info-icon"><img src="img/ico-type.png" alt=""></span>
+							Type
+						</dt>
+						<dd><a href="catalog-grid.html">Apartment</a></dd>
+						<dt>
+							<span class="prop-i-info-icon"><img src="img/ico-garage.png" alt=""></span>
+							Garage SqFt
+						</dt>
+						<dd><a href="catalog-grid.html">2 / 200</a></dd>
+						<dt>
+							<span class="prop-i-info-icon"><img src="img/ico-bath.png" alt=""></span>
+							Baths
+						</dt>
+						<dd><a href="catalog-grid.html">2</a></dd>
+						<dt>
+							<span class="prop-i-info-icon"><img src="img/ico-user.png" alt=""></span>
+							Guests
+						</dt>
+						<dd><a href="catalog-grid.html">3</a></dd>
+					</dl>
+				</div>
+			</div>
+		</section>
+
+		<div class="container maincont stylization">
+				<div class="cont-boxed">
+					<h2 class="color-grey fw-bold">Pricing Tables</h2>
+
+
+					<div class="">
+						<p>Recusandae explicabo architecto eos unde laborum natus omnis dignissimos doloremque
+							voluptatem necessitatibus fugiat aut, pariatur, optio dolor quod sequi repudiandae nihil
+							obcaecati, reiciendis provident? Facere ullam ut voluptatum tenetur cumque rem provident
+							fuga voluptate iste quo laboriosam nulla est distinctio ducimus, deserunt animi, atque culpa
+							non quis quasi beatae architecto itaque. Officia sit nesciunt laborum maiores harum, amet
+							quod necessitatibus, perferendis asperiores quaerat accusamus doloribus magni tenetur quis
+							saepe ullam rem quo quidem.
+							<br>Non dolore odit, totam voluptates quibusdam veniam sed est beatae quo aspernatur. Rerum
+							tempora expedita, aut, error eligendi dolores suscipit delectus repellendus quas qui soluta,
+							laborum corporis quo sed. Blanditiis assumenda, quaerat eos fugit impedit hic facere.
+							Obcaecati harum, error nobis sapiente enim sed dolor distinctio atque consectetur, saepe ex
+							temporibus nisi laboriosam tempore voluptates quod officiis quisquam libero beatae maiores,
+							pariatur quaerat.
+						</p>
+					</div>
+
+				</div>
+			</div>
+
+		<div class="banner-block" style="background-image: url('images/banner1.png');">
+			<div class="stylization container">
+				<h3>House by <span class="special-marked">the sea <img class="special-marked-lt" src="img/triangle-lt.png" alt=""> <img class="special-marked-rt" src="img/triangle-rt.png" alt=""></span></h3>
+				<a href="#" class="btn2">Read more</a>
+			</div>
+		</div>
+		
+		<div class="container maincont">
+		
+			<div class="mainttl-wrap">
+				<h1 class="mainttl"><span>Featured <b>Properties</b></span></h1>
+				<div class="mainttl-sort">
+					<p class="mainttl-sort-label">Sort by: <span>Rating</span></p>
+					<ul class="mainttl-sort-values">
+						<li><a href="#">Default Order</a></li>
+						<li><a href="#">Name</a></li>
+						<li class="active"><a href="#">Rating</a></li>
+						<li><a href="#">Price</a></li>
+						<li><a href="#">Date</a></li>
+						<li><a href="#">Popularity</a></li>
+					</ul>
+				</div>
+			</div>
+		
+			<div class="row prop-grid">
+				<div class="cf-xs-6 cf-sm-6 cf-lg-4 col-xs-6 col-sm-6 col-md-4 prop-i-col">
+					<div class="prop-i">
+						<a href="property.html" class="prop-i-img">
+							<img src="images/prop1.jpeg" alt="">
+						</a>
+						<div class="prop-i-top">
+							<p class="prop-i-loc"><a href="catalog-grid.html">Brooklyn</a>, <a href="catalog-grid.html">USA</a></p>
+							<div class="prop-i-moreinfo">
+								<ul>
+									<li class="prop-i-date">
+										Published 2 month ago
+									</li>
+									<li>
+										<a href="#">Add to Favorite</a>
+									</li>
+									<li>
+										<a href="catalog-grid.html">Similar Properties</a>
+									</li>
+									<li class="prop-i-agent">
+										<a href="agent.html" class="prop-i-agent-img"><img src="http://placehold.it/80x80" alt=""></a>
+										<p class="prop-i-agent-type">Agent</p>
+										<p class="prop-i-agent-name"><a href="agent.html">Mark Duncan</a></p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<h3 class="prop-i-ttl">
+							<a href="property.html">Apartment 21 Sqrt</a>
+						</h3>
+						<ul class="prop-i-rating">
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+						</ul>
+						<dl class="prop-i-info">
+							<dt>
+								<span class="prop-i-info-icon"><img src="img/propinfo1.png" alt=""></span>
+								Square Feet
+							</dt>
+							<dd>2100</dd>
+							<dt>
+								<span class="prop-i-info-icon"><img src="img/propinfo2.png" alt=""></span>
+								Bedrooms
+							</dt>
+							<dd>3</dd>
+							<dt>
+								<span class="prop-i-info-icon"><img src="img/propinfo3.png" alt=""></span>
+								Guests
+							</dt>
+							<dd>4</dd>
+						</dl>
+						<div class="prop-i-bottom">
+							<p class="prop-i-price"><span class="prop-i-price-val">$160,300</span></p>
+							<p class="prop-i-type"><a href="catalog-grid.html">For Sale</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="cf-xs-6 cf-sm-6 cf-lg-4 col-xs-6 col-sm-6 col-md-4 prop-i-col">
+					<div class="prop-i">
+						<a href="property.html" class="prop-i-img">
+							<img src="images/prop1.jpeg" alt="">
+						</a>
+						<div class="prop-i-top">
+							<p class="prop-i-loc"><a href="catalog-grid.html">Rome</a>, <a href="catalog-grid.html">Italy</a></p>
+							<div class="prop-i-moreinfo">
+								<ul>
+									<li class="prop-i-date">
+										Published 2 month ago
+									</li>
+									<li>
+										<a href="#">Add to Favorite</a>
+									</li>
+									<li>
+										<a href="catalog-grid.html">Similar Properties</a>
+									</li>
+									<li class="prop-i-agent">
+										<a href="agent.html" class="prop-i-agent-img"><img src="http://placehold.it/80x80" alt=""></a>
+										<p class="prop-i-agent-type">Agent</p>
+										<p class="prop-i-agent-name"><a href="agent.html">Mark Duncan</a></p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<h3 class="prop-i-ttl">
+							<a href="property.html">Family Home 14 Sqrt</a>
+						</h3>
+						<ul class="prop-i-rating">
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+						</ul>
+						<dl class="prop-i-info">
+							<dt>
+								<span class="prop-i-info-icon"><img src="img/propinfo1.png" alt=""></span>
+								Square Feet
+							</dt>
+							<dd>1400</dd>
+							<dt>
+								<span class="prop-i-info-icon"><img src="img/propinfo2.png" alt=""></span>
+								Bedrooms
+							</dt>
+							<dd>3</dd>
+							<dt>
+								<span class="prop-i-info-icon"><img src="img/propinfo3.png" alt=""></span>
+								Guests
+							</dt>
+							<dd>4</dd>
+						</dl>
+						<div class="prop-i-bottom">
+							<p class="prop-i-price"><span class="prop-i-price-val">$1800</span> <span class="prop-i-price-currency">/ mo</span>
+							</p>
+							<p class="prop-i-type"><a href="catalog-grid.html">For Rent</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="cf-xs-6 cf-sm-6 cf-lg-4 col-xs-6 col-sm-6 col-md-4 prop-i-col">
+					<div class="prop-i">
+						<a href="property.html" class="prop-i-img">
+							<img src="images/prop1.jpeg" alt="">
+						</a>
+						<div class="prop-i-top">
+							<p class="prop-i-loc"><a href="catalog-grid.html">Paris</a>, <a href="catalog-grid.html">France</a></p>
+							<div class="prop-i-moreinfo">
+								<ul>
+									<li class="prop-i-date">
+										Published 2 month ago
+									</li>
+									<li>
+										<a href="#">Add to Favorite</a>
+									</li>
+									<li>
+										<a href="catalog-grid.html">Similar Properties</a>
+									</li>
+									<li class="prop-i-agent">
+										<a href="agent.html" class="prop-i-agent-img"><img src="http://placehold.it/80x80" alt=""></a>
+										<p class="prop-i-agent-type">Agent</p>
+										<p class="prop-i-agent-name"><a href="agent.html">Mark Duncan</a></p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<h3 class="prop-i-ttl">
+							<a href="property.html">Loft 13 Sqrt</a>
+						</h3>
+						<ul class="prop-i-rating">
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+						</ul>
+						<dl class="prop-i-info">
+							<dt>
+								<span class="prop-i-info-icon"><img src="img/propinfo1.png" alt=""></span>
+								Square Feet
+							</dt>
+							<dd>1300</dd>
+							<dt>
+								<span class="prop-i-info-icon"><img src="img/propinfo2.png" alt=""></span>
+								Bedrooms
+							</dt>
+							<dd>3</dd>
+							<dt>
+								<span class="prop-i-info-icon"><img src="img/propinfo3.png" alt=""></span>
+								Guests
+							</dt>
+							<dd>4</dd>
+						</dl>
+						<div class="prop-i-bottom">
+							<p class="prop-i-price"><span class="prop-i-price-val">$130,500</span></p>
+							<p class="prop-i-type"><a href="catalog-grid.html">For Sale</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="cf-xs-6 cf-sm-6 cf-lg-4 col-xs-6 col-sm-6 col-md-4 prop-i-col">
+					<div class="prop-i">
+						<a href="property.html" class="prop-i-img">
+							<img src="images/prop1.jpeg" alt="">
+						</a>
+						<div class="prop-i-top">
+							<p class="prop-i-loc"><a href="catalog-grid.html">San Francisco</a>, <a href="catalog-grid.html">USA</a></p>
+							<div class="prop-i-moreinfo">
+								<ul>
+									<li class="prop-i-date">
+										Published 2 month ago
+									</li>
+									<li>
+										<a href="#">Add to Favorite</a>
+									</li>
+									<li>
+										<a href="catalog-grid.html">Similar Properties</a>
+									</li>
+									<li class="prop-i-agent">
+										<a href="agent.html" class="prop-i-agent-img"><img src="http://placehold.it/80x80" alt=""></a>
+										<p class="prop-i-agent-type">Agent</p>
+										<p class="prop-i-agent-name"><a href="agent.html">Mark Duncan</a></p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<h3 class="prop-i-ttl">
+							<a href="property.html">Apartment 11 Sqrt</a>
+						</h3>
+						<ul class="prop-i-rating">
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+						</ul>
+						<dl class="prop-i-info">
+							<dt>
+								<span class="prop-i-info-icon"><img src="img/propinfo1.png" alt=""></span>
+								Square Feet
+							</dt>
+							<dd>1100</dd>
+							<dt>
+								<span class="prop-i-info-icon"><img src="img/propinfo2.png" alt=""></span>
+								Bedrooms
+							</dt>
+							<dd>3</dd>
+							<dt>
+								<span class="prop-i-info-icon"><img src="img/propinfo3.png" alt=""></span>
+								Guests
+							</dt>
+							<dd>4</dd>
+						</dl>
+						<div class="prop-i-bottom">
+							<p class="prop-i-price"><span class="prop-i-price-val">$1300</span> <span class="prop-i-price-currency">/ mo</span>
+							</p>
+							<p class="prop-i-type"><a href="catalog-grid.html">For Rent</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="cf-xs-6 cf-sm-6 cf-lg-4 col-xs-6 col-sm-6 col-md-4 prop-i-col">
+					<div class="prop-i">
+						<a href="property.html" class="prop-i-img">
+							<img src="images/prop1.jpeg" alt="">
+						</a>
+						<div class="prop-i-top">
+							<p class="prop-i-loc"><a href="catalog-grid.html">Copenhagen</a>, <a href="catalog-grid.html">Denmark</a></p>
+							<div class="prop-i-moreinfo">
+								<ul>
+									<li class="prop-i-date">
+										Published 2 month ago
+									</li>
+									<li>
+										<a href="#">Add to Favorite</a>
+									</li>
+									<li>
+										<a href="catalog-grid.html">Similar Properties</a>
+									</li>
+									<li class="prop-i-agent">
+										<a href="agent.html" class="prop-i-agent-img"><img src="http://placehold.it/80x80" alt=""></a>
+										<p class="prop-i-agent-type">Agent</p>
+										<p class="prop-i-agent-name"><a href="agent.html">Mark Duncan</a></p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<h3 class="prop-i-ttl">
+							<a href="property.html">Condo 21 Sqrt</a>
+						</h3>
+						<ul class="prop-i-rating">
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+						</ul>
+						<dl class="prop-i-info">
+							<dt>
+								<span class="prop-i-info-icon"><img src="img/propinfo1.png" alt=""></span>
+								Square Feet
+							</dt>
+							<dd>2100</dd>
+							<dt>
+								<span class="prop-i-info-icon"><img src="img/propinfo2.png" alt=""></span>
+								Bedrooms
+							</dt>
+							<dd>3</dd>
+							<dt>
+								<span class="prop-i-info-icon"><img src="img/propinfo3.png" alt=""></span>
+								Guests
+							</dt>
+							<dd>4</dd>
+						</dl>
+						<div class="prop-i-bottom">
+							<p class="prop-i-price"><span class="prop-i-price-val">$140,700</span></p>
+							<p class="prop-i-type"><a href="catalog-grid.html">For Sale</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="cf-xs-6 cf-sm-6 cf-lg-4 col-xs-6 col-sm-6 col-md-4 prop-i-col">
+					<div class="prop-i">
+						<a href="property.html" class="prop-i-img">
+							<img src="images/prop1.jpeg" alt="">
+						</a>
+						<div class="prop-i-top">
+							<p class="prop-i-loc"><a href="catalog-grid.html">Ankara</a>, <a href="catalog-grid.html">Turkey</a></p>
+							<div class="prop-i-moreinfo">
+								<ul>
+									<li class="prop-i-date">
+										Published 2 month ago
+									</li>
+									<li>
+										<a href="#">Add to Favorite</a>
+									</li>
+									<li>
+										<a href="catalog-grid.html">Similar Properties</a>
+									</li>
+									<li class="prop-i-agent">
+										<a href="agent.html" class="prop-i-agent-img"><img src="http://placehold.it/80x80" alt=""></a>
+										<p class="prop-i-agent-type">Agent</p>
+										<p class="prop-i-agent-name"><a href="agent.html">Mark Duncan</a></p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<h3 class="prop-i-ttl">
+							<a href="property.html">Loft 11 Sqrt</a>
+						</h3>
+						<ul class="prop-i-rating">
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+							<li><i class="ion-android-star"></i></li>
+						</ul>
+						<dl class="prop-i-info">
+							<dt>
+								<span class="prop-i-info-icon"><img src="img/propinfo1.png" alt=""></span>
+								Square Feet
+							</dt>
+							<dd>1100</dd>
+							<dt>
+								<span class="prop-i-info-icon"><img src="img/propinfo2.png" alt=""></span>
+								Bedrooms
+							</dt>
+							<dd>3</dd>
+							<dt>
+								<span class="prop-i-info-icon"><img src="img/propinfo3.png" alt=""></span>
+								Guests
+							</dt>
+							<dd>4</dd>
+						</dl>
+						<div class="prop-i-bottom">
+							<p class="prop-i-price"><span class="prop-i-price-val">$1200</span> <span class="prop-i-price-currency">/ mo</span>
+							</p>
+							<p class="prop-i-type"><a href="catalog-grid.html">For Rent</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<button class="prop-items-more">Show more</button>
+		
+		</div>
+		
+		
+		<div class="modalform">
+			<form action="#" method="POST" class="form-validate">
+				<p class="modalform-ttl">Contact Us</p>
+				<input type="text" placeholder="Your name" data-required="text" name="name">
+				<input type="text" placeholder="Your phone" data-required="text" name="phone">
+				<input type="text" placeholder="Your email" data-required="text" data-required-email="email" name="email">
+				<button class="btn1" type="submit">Send</button>
+			</form>
+		</div>
+		
+		<footer class="site-footer">
+			<div class="container footer-top">
+				<div class="row">
+					<div class="col-sm-4 f-logo">
+						<a href="index-detailed.html">
+							<img src="images/logo.png" alt="">
+							<p>Powerful Real Estate Template</p>
+						</a>
+					</div>
+					<div class="col-xs-3 col-sm-2 f-menu">
+						<ul>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Apps</a></li>
+							<li><a href="#">Blog</a></li>
+						</ul>
+					</div>
+					<div class="col-xs-3 col-sm-2 f-menu">
+						<ul>
+							<li><a href="#">Vacancy</a></li>
+							<li><a href="#">Builders</a></li>
+							<li><a href="#">Referrals</a></li>
+						</ul>
+					</div>
+					<div class="col-xs-3 col-sm-2 f-menu">
+						<ul>
+							<li><a href="#">Feedback</a></li>
+							<li><a href="#">Contact Us</a></li>
+							<li><a href="#">Help</a></li>
+						</ul>
+					</div>
+					<div class="col-xs-3 col-sm-2 f-menu">
+						<ul>
+							<li><a href="#">Research</a></li>
+							<li><a href="#">Mobile</a></li>
+							<li><a href="#">Properties</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4">
+							<ul class="social-links">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							</ul>
+						</div>
+						<div class="col-sm-4 f-copyright">
+							<p>All Rights Reserved © 2016</p>
+						</div>
+						<div class="col-sm-4 f-callback">
+							<button class="modalform-btn btn1">Contact us</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+
+	<!-- zoomslider
+	============================================= -->
+	<script src="demos/zoomslider/theme.js"></script> <!-- (clean)-->
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+
+
+	<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+	<!-- jQuery UI - DatePicker -->
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/swiper.jquery.min.js"></script>
+	<script src="js/chosen.jquery.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.countTo.js"></script>
+	<script src="js/ion.rangeSlider.min.js"></script>
+	<script src="js/fancybox/fancybox.js"></script>
+	<script src="js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
+	<script src="js/isotope.min.js"></script>
+	<script src="js/main.js"></script>
+
+	<script src="js/markerclusterer.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhAYvx0GmLyN5hlf6Uv_e9pPvUT3YpozE"></script>
+	<script src="js/google-maps.js"></script>
+	<script>
+		$(document).ready(changeHeaderColor);
+		$(window).on('resize', changeHeaderColor);
+
+		function changeHeaderColor() {
+			if (jQuery(window).width() > 991.98) {
+				jQuery("#header").hover(
+					function () {
+						if (!$(this).hasClass("sticky-header")) {
+							$(this).addClass("hover-light").removeClass("dark");
+							SEMICOLON.header.logo();
+						}
+						$("#wrapper").addClass("header-overlay");
+					}, function () {
+						if (!$(this).hasClass("sticky-header")) {
+							$(this).removeClass("hover-light").addClass("dark");
+							SEMICOLON.header.logo();
+						}
+						$("#wrapper").removeClass("header-overlay");
+					}
+				);
+			}
+		};
+
+	</script>
+
+</body>
+
+</html>
