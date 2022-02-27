@@ -167,6 +167,10 @@ ul.b-crumbs > li a:hover {
     #header.floating-header .mega-menu-content {
         max-width: 1116px !important;width: 100% !important;
     }
+    .v-padding{
+        min-height: 85vh;
+        padding: 0 !important;
+    }
 }
 @media only screen and (min-width:1400px) {
     #header.floating-header .mega-menu-content {
