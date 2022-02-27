@@ -1025,7 +1025,7 @@
 		var titleH= document.getElementById('title-fix').offsetHeight;
 		var anotherH= document.getElementById('head-offset').offsetTop;
 
-		document.getElementById('title-fix').style.top = (anotherH)+'px';
+		document.getElementById('title-fix').style.top = (anotherH-55)+'px';
 		document.querySelector('#title-fix h2').style.color = 'red !important';
 		document.getElementById('slider-hero').addEventListener('onresize',function(){
 			document.getElementById('title-fix').style.top = (anotherH)+'px';
