@@ -136,6 +136,8 @@ ul.b-crumbs > li a:hover {
 }
 #property-slider{
     border-radius: 3px;
+    
+    margin-bottom: 40px !important;
 }
 #property-slider.swiper-container:hover .swiper-button-prev, #property-slider.swiper-container:hover .swiper-button-next {
     display: block !important;
@@ -199,7 +201,7 @@ ul.b-crumbs > li a:hover {
     margin-bottom:30px;
 }
 .subscribe-container{
-    border-bottom:1px solid #e1e5ee; ;
+    border-bottom:1px solid #e1e5ee; 
 }
 .subscribe-container .f2-subscribe{
     margin-bottom: 0px !important;
