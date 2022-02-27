@@ -134,10 +134,10 @@ ul.b-crumbs > li a:hover {
     padding-top: 25px;
     border-top: 1px solid #e1e5ee;
 }
-.swiper-container:hover .swiper-button-prev,.swiper-container:hover .swiper-button-next {
+#property-slider .swiper-container:hover .swiper-button-prev,#property-slider  .swiper-container:hover .swiper-button-next {
     display: block;
 }
-.swiper-button-prev, .swiper-button-next {
+#property-slider  .swiper-button-prev,#property-slider  .swiper-button-next {
     position: absolute;
     width: 35px;
     height: 40px;
@@ -188,6 +188,9 @@ ul.b-crumbs > li a:hover {
 .subscribe-container form{
     max-width: 400px;
 }
+.slider-arrows{
+    position: relative;
+}
 @media (min-width: 992px){
     .post-slider .swiper-pagination-fraction {
         margin: 0 0 75px 455px !important;
@@ -195,6 +198,9 @@ ul.b-crumbs > li a:hover {
     .header-size-custom .menu-container > .menu-item > .menu-link {
         padding-top: 24px !important;
         padding-bottom: 24px !important;
+    }
+    .container{
+        width: 970px;
     }
 }
 @media (min-width: 992px){
@@ -214,10 +220,16 @@ ul.b-crumbs > li a:hover {
         min-height: 85vh;
         padding: 0 !important;
     }
+    .container{
+        width: 1200px !important;
+    }
 }
 @media only screen and (min-width:1400px) {
     #header.floating-header .mega-menu-content {
         max-width: 1296px !important;width: 100% !important;
+    }
+    .container{
+        width: 1200px;
     }
 }
 .header-size-custom #logo img {
@@ -228,6 +240,7 @@ ul.b-crumbs > li a:hover {
     .post-slider .swiper-pagination-fraction{
         margin: 0 0 75px 340px !important;
     }
+    
 }
 @media only screen and (max-width:992px) {
     #header.dark {
