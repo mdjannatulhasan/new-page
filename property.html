@@ -20,15 +20,7 @@
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-
-	<!-- Store Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="css/colors.php?color=222222" type="text/css" /> <!-- Store Theme Color -->
-
 	<link rel="stylesheet" href="demos/store/store.css" type="text/css" />
-	<!-- HIER portfolie hovers Store Theme Custom CSS -->
-
-
-	<!-- Hosting Demo Specific Stylesheet (clean) -->
 	<link rel="stylesheet" href="demos/hosting/hosting.css" type="text/css" />
 
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700%7CRoboto:300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic" rel="stylesheet">
@@ -43,17 +35,14 @@
 	<link rel="stylesheet" href="css/jquery.fancybox.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<title>Store | Canvas</title>
+	<title>Property</title>
 
 </head>
 
-<!--<body class="stretched modal-subscribe-bottom sticky-footer"> -->
 
 <body class="stretched" data-spy="scroll" <!-- data-target="#navbar-example3" data-scroll-animation="true" class: doc
 	modal-subscribe-bottom wide-container-->
 
-	<!-- Document Wrapper
-	============================================= -->
 	<div id="wrapper" class="clearfix">
 		<header class="site-header3">
 			<a href="index-detailed.html" class="h-logo overlay">
@@ -110,8 +99,9 @@
 						</ul>
 					</li>
 				</ul>
-			</nav>
-			<div class="h-right">
+			</nav><!--
+			NO SPACE
+			--><div class="h-right">
 			<ul class="h-right-vert-aligner h-social">
 				<li><a href="#"><span class="fa fa-facebook"></span></a></li>
 				<li><a href="#"><span class="fa fa-twitter"></span></a></li>
@@ -242,7 +232,6 @@
 		<div class="slider-hero" id="slider-hero">
 			<div class="container">
 				<div id="title-fix" class="parallax" data-0="transform: translateY(0px); opacity: 1" data-300="transform: translateY(50px); opacity: 0">
-					<!-- col-lg-6-->
 					<h2 class="fw-bold display-2 mb-0">Calgary</h2>
 				</div>
 			</div>
@@ -256,15 +245,12 @@
 								<div class="vertical-middle v-padding">
 
 									<div class="row justify-content-between">
-										<!--<div class="col-lg-6 col-md-7 dark mb-5 mb-md-0 py-5">-->
 										<div class="dark py-5 py-md-0">
 					
 											<div class="parallax" data-0="transform: translateY(0px); opacity: 1"
 												data-300="transform: translateY(50px); opacity: 0">
 												<!-- col-lg-6-->
 												<h2 id="head-offset" class="head-hide fw-bold display-2 mb-0">Calgary</h2>
-												<p class="slider-text fw-bold mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aspernatur, ratione debitis nesciunt voluptas minima unde repellendus provident at numquam dolorem sequi molestias iure culpa sunt laudantium sapiente soluta aliquid?
-												Est at labore quibusdam? Totam amet quae enim facere? Id nulla ea enim doloribus dolorem nihil excepturi vel, consectetur earum aliquid dolore quia adipisci expedita dicta, officia laboriosam quam officiis?</p>
 											</div>
 					
 										</div>
@@ -282,12 +268,10 @@
 								<div class="vertical-middle container">
 
 									<div class="row justify-content-between">
-										<!--<div class="col-lg-6 col-md-7 dark mb-5 mb-md-0 py-5">-->
 										<div class="container dark py-5 py-md-0">
 					
 											<div class="parallax" data-0="transform: translateY(0px); opacity: 1"
 												data-300="transform: translateY(50px); opacity: 0">
-												<!-- col-lg-6-->
 												<h2 class="head-hide fw-bold display-2 mb-0">Calgary</h2>
 											</div>
 					
@@ -305,25 +289,68 @@
 				<div class="swiper-button-next"></div>
 			
 				<div class="swiper-pagination"></div>
-			
+				<div class="container prop-slider-cont">
+					<ul class="b-crumbs">
+						<li><a href="index-detailed.html">Home</a></li>
+						<li><a href="catalog-grid.html">Catalog</a></li>
+						<li>Single Property</li>
+					</ul>
+		
+					<div class="prop-share-list">
+						<ul class="post-share">
+							<li>
+								<a onclick="window.open('https://www.facebook.com/sharer.php?s=100&amp;p[url]=http://absolute-html.real-web.pro','sharer', 'toolbar=0,status=0,width=620,height=280');"
+									data-toggle="tooltip" title="Share on Facebook" href="javascript:">
+									<i class="fa fa-facebook"></i>
+								</a>
+							</li>
+							<li>
+								<a onclick="popUp=window.open('http://twitter.com/home?status=Post with Shortcodes http://absolute-html.real-web.pro','sharer','scrollbars=yes,width=800,height=400');popUp.focus();return false;"
+									data-toggle="tooltip" title="Share on Twitter" href="javascript:;">
+									<i class="fa fa-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a onclick="popUp=window.open('http://vk.com/share.php?url=http://absolute-html.real-web.pro','sharer','scrollbars=yes,width=800,height=400');popUp.focus();return false;"
+									data-toggle="tooltip" title="Share on VK" href="javascript:;">
+									<i class="fa fa-vk"></i>
+								</a>
+							</li>
+							<li>
+								<a data-toggle="tooltip" title="Share on Pinterest"
+									onclick="popUp=window.open('http://pinterest.com/pin/create/button/?url=http://absolute-html.real-web.pro&amp;description=Absolute HTML Template&amp;media=http://discover.real-web.pro/wp-content/uploads/2017/09/insect-1130497_1920.jpg','sharer','scrollbars=yes,width=800,height=400');popUp.focus();return false;"
+									href="javascript:;">
+									<i class="fa fa-pinterest"></i>
+								</a>
+							</li>
+							<li>
+								<a data-toggle="tooltip" title="Share on Google +1" href="javascript:;"
+									onclick="popUp=window.open('https://plus.google.com/share?url=http://absolute-html.real-web.pro','sharer','scrollbars=yes,width=800,height=400');popUp.focus();return false;">
+									<i class="fa fa-google-plus"></i>
+								</a>
+							</li>
+							<li>
+								<a data-toggle="tooltip" title="Share on Linkedin"
+									onclick="popUp=window.open('http://linkedin.com/shareArticle?mini=true&amp;url=http://absolute-html.real-web.pro&amp;title=Absolute HTML Template','sharer','scrollbars=yes,width=800,height=400');popUp.focus();return false;"
+									href="javascript:;">
+									<i class="fa fa-linkedin"></i>
+								</a>
+							</li>
+							<li>
+								<a data-toggle="tooltip" title="Share on Tumblr"
+									onclick="popUp=window.open('http://www.tumblr.com/share/link?url=http://absolute-html.real-web.pro&amp;name=Absolute HTML Template&amp;description=Aliquam%2C+consequuntur+laboriosam+minima+neque+nesciunt+quod+repudiandae+rerum+sint.+Accusantium+adipisci+aliquid+architecto+blanditiis+dolorum+excepturi+harum+ipsa%2C+ipsam%2C...','sharer','scrollbars=yes,width=800,height=400');popUp.focus();return false;"
+									href="javascript:;">
+									<i class="fa fa-tumblr"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>	
+			
 		</div>
 		
-		<!-- Header
-		============================================= -->
-
-
-		<!-- Content
-		============================================= -->
-
 		<section id="top-lifted">
-			<div class="container prop-b-crumbs">
-				<ul class="b-crumbs">
-					<li><a href="index-detailed.html">Home</a></li>
-					<li><a href="catalog-grid.html">Catalog</a></li>
-					<li>Single Property</li>
-				</ul>
-			</div>
 			<div class="container">
 				<div class="prop-main">
 					<div class="prop-main-top">
@@ -493,15 +520,10 @@
 								Bedrooms
 							</dt>
 							<dd>3</dd>
-							<dt>
-								<span class="prop-i-info-icon"><img src="img/propinfo3.png" alt=""></span>
-								Guests
-							</dt>
-							<dd>4</dd>
+							
 						</dl>
-						<div class="prop-i-bottom">
-							<p class="prop-i-price"><span class="prop-i-price-val">$160,300</span></p>
-							<p class="prop-i-type"><a href="catalog-grid.html">For Sale</a></p>
+						<div class="prop-bottom">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit officiis atque architecto! Laudantium maiores unde, possimus id repellendus nobis at, tempore dignissimos voluptas sed fugit aut modi repellat aliquid expedita?</p>
 						</div>
 					</div>
 				</div>
@@ -511,7 +533,14 @@
 							<img src="images/prop1.jpeg" alt="">
 						</a>
 						<div class="prop-i-top">
-							<p class="prop-i-loc"><a href="catalog-grid.html">Rome</a>, <a href="catalog-grid.html">Italy</a></p>
+							<ul class="prop-i-rating">
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+							</ul>
+							
 							<div class="prop-i-moreinfo">
 								<ul>
 									<li class="prop-i-date">
@@ -534,13 +563,7 @@
 						<h3 class="prop-i-ttl">
 							<a href="property.html">Family Home 14 Sqrt</a>
 						</h3>
-						<ul class="prop-i-rating">
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-						</ul>
+						<p class="prop-i-loc"><a href="catalog-grid.html">Rome</a>, <a href="catalog-grid.html">Italy</a></p>
 						<dl class="prop-i-info">
 							<dt>
 								<span class="prop-i-info-icon"><img src="img/propinfo1.png" alt=""></span>
@@ -552,16 +575,10 @@
 								Bedrooms
 							</dt>
 							<dd>3</dd>
-							<dt>
-								<span class="prop-i-info-icon"><img src="img/propinfo3.png" alt=""></span>
-								Guests
-							</dt>
-							<dd>4</dd>
+							
 						</dl>
-						<div class="prop-i-bottom">
-							<p class="prop-i-price"><span class="prop-i-price-val">$1800</span> <span class="prop-i-price-currency">/ mo</span>
-							</p>
-							<p class="prop-i-type"><a href="catalog-grid.html">For Rent</a></p>
+						<div class="prop-bottom">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit officiis atque architecto! Laudantium maiores unde, possimus id repellendus nobis at, tempore dignissimos voluptas sed fugit aut modi repellat aliquid expedita?</p>
 						</div>
 					</div>
 				</div>
@@ -571,7 +588,14 @@
 							<img src="images/prop1.jpeg" alt="">
 						</a>
 						<div class="prop-i-top">
-							<p class="prop-i-loc"><a href="catalog-grid.html">Paris</a>, <a href="catalog-grid.html">France</a></p>
+							<ul class="prop-i-rating">
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+							</ul>
+							
 							<div class="prop-i-moreinfo">
 								<ul>
 									<li class="prop-i-date">
@@ -594,13 +618,7 @@
 						<h3 class="prop-i-ttl">
 							<a href="property.html">Loft 13 Sqrt</a>
 						</h3>
-						<ul class="prop-i-rating">
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-						</ul>
+						<p class="prop-i-loc"><a href="catalog-grid.html">Paris</a>, <a href="catalog-grid.html">France</a></p>
 						<dl class="prop-i-info">
 							<dt>
 								<span class="prop-i-info-icon"><img src="img/propinfo1.png" alt=""></span>
@@ -612,15 +630,10 @@
 								Bedrooms
 							</dt>
 							<dd>3</dd>
-							<dt>
-								<span class="prop-i-info-icon"><img src="img/propinfo3.png" alt=""></span>
-								Guests
-							</dt>
-							<dd>4</dd>
+							
 						</dl>
-						<div class="prop-i-bottom">
-							<p class="prop-i-price"><span class="prop-i-price-val">$130,500</span></p>
-							<p class="prop-i-type"><a href="catalog-grid.html">For Sale</a></p>
+						<div class="prop-bottom">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit officiis atque architecto! Laudantium maiores unde, possimus id repellendus nobis at, tempore dignissimos voluptas sed fugit aut modi repellat aliquid expedita?</p>
 						</div>
 					</div>
 				</div>
@@ -630,7 +643,14 @@
 							<img src="images/prop1.jpeg" alt="">
 						</a>
 						<div class="prop-i-top">
-							<p class="prop-i-loc"><a href="catalog-grid.html">San Francisco</a>, <a href="catalog-grid.html">USA</a></p>
+							<ul class="prop-i-rating">
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+							</ul>
+							
 							<div class="prop-i-moreinfo">
 								<ul>
 									<li class="prop-i-date">
@@ -653,13 +673,7 @@
 						<h3 class="prop-i-ttl">
 							<a href="property.html">Apartment 11 Sqrt</a>
 						</h3>
-						<ul class="prop-i-rating">
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-						</ul>
+						<p class="prop-i-loc"><a href="catalog-grid.html">San Francisco</a>, <a href="catalog-grid.html">USA</a></p>
 						<dl class="prop-i-info">
 							<dt>
 								<span class="prop-i-info-icon"><img src="img/propinfo1.png" alt=""></span>
@@ -671,16 +685,10 @@
 								Bedrooms
 							</dt>
 							<dd>3</dd>
-							<dt>
-								<span class="prop-i-info-icon"><img src="img/propinfo3.png" alt=""></span>
-								Guests
-							</dt>
-							<dd>4</dd>
+							
 						</dl>
-						<div class="prop-i-bottom">
-							<p class="prop-i-price"><span class="prop-i-price-val">$1300</span> <span class="prop-i-price-currency">/ mo</span>
-							</p>
-							<p class="prop-i-type"><a href="catalog-grid.html">For Rent</a></p>
+						<div class="prop-bottom">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit officiis atque architecto! Laudantium maiores unde, possimus id repellendus nobis at, tempore dignissimos voluptas sed fugit aut modi repellat aliquid expedita?</p>
 						</div>
 					</div>
 				</div>
@@ -690,7 +698,14 @@
 							<img src="images/prop1.jpeg" alt="">
 						</a>
 						<div class="prop-i-top">
-							<p class="prop-i-loc"><a href="catalog-grid.html">Copenhagen</a>, <a href="catalog-grid.html">Denmark</a></p>
+							<ul class="prop-i-rating">
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+							</ul>
+							
 							<div class="prop-i-moreinfo">
 								<ul>
 									<li class="prop-i-date">
@@ -713,13 +728,7 @@
 						<h3 class="prop-i-ttl">
 							<a href="property.html">Condo 21 Sqrt</a>
 						</h3>
-						<ul class="prop-i-rating">
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-						</ul>
+						<p class="prop-i-loc"><a href="catalog-grid.html">Copenhagen</a>, <a href="catalog-grid.html">Denmark</a></p>
 						<dl class="prop-i-info">
 							<dt>
 								<span class="prop-i-info-icon"><img src="img/propinfo1.png" alt=""></span>
@@ -731,15 +740,10 @@
 								Bedrooms
 							</dt>
 							<dd>3</dd>
-							<dt>
-								<span class="prop-i-info-icon"><img src="img/propinfo3.png" alt=""></span>
-								Guests
-							</dt>
-							<dd>4</dd>
+							
 						</dl>
-						<div class="prop-i-bottom">
-							<p class="prop-i-price"><span class="prop-i-price-val">$140,700</span></p>
-							<p class="prop-i-type"><a href="catalog-grid.html">For Sale</a></p>
+						<div class="prop-bottom">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit officiis atque architecto! Laudantium maiores unde, possimus id repellendus nobis at, tempore dignissimos voluptas sed fugit aut modi repellat aliquid expedita?</p>
 						</div>
 					</div>
 				</div>
@@ -749,7 +753,14 @@
 							<img src="images/prop1.jpeg" alt="">
 						</a>
 						<div class="prop-i-top">
-							<p class="prop-i-loc"><a href="catalog-grid.html">Ankara</a>, <a href="catalog-grid.html">Turkey</a></p>
+							<ul class="prop-i-rating">
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+							</ul>
+							
 							<div class="prop-i-moreinfo">
 								<ul>
 									<li class="prop-i-date">
@@ -772,13 +783,7 @@
 						<h3 class="prop-i-ttl">
 							<a href="property.html">Loft 11 Sqrt</a>
 						</h3>
-						<ul class="prop-i-rating">
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-						</ul>
+						<p class="prop-i-loc"><a href="catalog-grid.html">Ankara</a>, <a href="catalog-grid.html">Turkey</a></p>
 						<dl class="prop-i-info">
 							<dt>
 								<span class="prop-i-info-icon"><img src="img/propinfo1.png" alt=""></span>
@@ -790,16 +795,90 @@
 								Bedrooms
 							</dt>
 							<dd>3</dd>
+							
+						</dl>
+						<div class="prop-bottom">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit officiis atque architecto! Laudantium maiores unde, possimus id repellendus nobis at, tempore dignissimos voluptas sed fugit aut modi repellat aliquid expedita?</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<button class="prop-items-more">Show more</button>
+		
+		</div>
+
+		<div class="container maincont">
+		
+			<div class="mainttl-wrap">
+				<h1 class="mainttl"><span>Featured <b>Properties</b></span></h1>
+				<div class="mainttl-sort">
+					<p class="mainttl-sort-label">Sort by: <span>Rating</span></p>
+					<ul class="mainttl-sort-values">
+						<li><a href="#">Default Order</a></li>
+						<li><a href="#">Name</a></li>
+						<li class="active"><a href="#">Rating</a></li>
+						<li><a href="#">Price</a></li>
+						<li><a href="#">Date</a></li>
+						<li><a href="#">Popularity</a></li>
+					</ul>
+				</div>
+			</div>
+		
+			<div class="row prop-grid prop2">
+				<div class="prop-i-col">
+					<div class="prop-i">
+						<a href="property.html" class="prop-i-img">
+							<img src="images/prop1.jpeg" alt="">
+						</a>
+						<div class="prop-i-top">
+							<ul class="prop-i-rating">
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+							</ul>
+							
+							<div class="prop-i-moreinfo">
+								<ul>
+									<li class="prop-i-date">
+										Published 2 month ago
+									</li>
+									<li>
+										<a href="#">Add to Favorite</a>
+									</li>
+									<li>
+										<a href="catalog-grid.html">Similar Properties</a>
+									</li>
+									<li class="prop-i-agent">
+										<a href="agent.html" class="prop-i-agent-img"><img src="http://placehold.it/80x80" alt=""></a>
+										<p class="prop-i-agent-type">Agent</p>
+										<p class="prop-i-agent-name"><a href="agent.html">Mark Duncan</a></p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<h3 class="prop-i-ttl">
+							<a href="property.html">Loft 13 Sqrt</a>
+						</h3>
+						<p class="prop-i-loc"><a href="catalog-grid.html">Paris</a>, <a href="catalog-grid.html">France</a></p>
+						<dl class="prop-i-info">
 							<dt>
-								<span class="prop-i-info-icon"><img src="img/propinfo3.png" alt=""></span>
-								Guests
+								<span class="prop-i-info-icon"><img src="img/propinfo1.png" alt=""></span>
+								Square Feet
 							</dt>
-							<dd>4</dd>
+							<dd>1300</dd>
+							<dt>
+								<span class="prop-i-info-icon"><img src="img/propinfo2.png" alt=""></span>
+								Bedrooms
+							</dt>
+							<dd>3</dd>
+							
 						</dl>
 						<div class="prop-i-bottom">
-							<p class="prop-i-price"><span class="prop-i-price-val">$1200</span> <span class="prop-i-price-currency">/ mo</span>
-							</p>
-							<p class="prop-i-type"><a href="catalog-grid.html">For Rent</a></p>
+							<p class="prop-i-price"><span class="prop-i-price-val">$130,500</span></p>
+							<p class="prop-i-type"><a href="catalog-grid.html">For Sale</a></p>
 						</div>
 					</div>
 				</div>
@@ -882,30 +961,14 @@
 		</footer>
 
 
-	</div><!-- #wrapper end -->
+	</div>
 
-	<!-- Go To Top
-	============================================= -->
 	<div id="gotoTop" class="icon-angle-up"></div>
 
-	<!-- JavaScripts
-	============================================= -->
+
 	<script src="js/jquery.js"></script>
-
-	<!-- zoomslider
-	============================================= -->
-	<script src="demos/zoomslider/theme.js"></script> <!-- (clean)-->
-
-	<!-- Footer Scripts
-	============================================= -->
 	<script src="js/functions.js"></script>
-
-
-
 	<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-	<!-- jQuery UI - DatePicker -->
 	<script src="js/jquery-ui.min.js"></script>
 	<script src="js/swiper.jquery.min.js"></script>
 	<script src="js/chosen.jquery.min.js"></script>
@@ -916,10 +979,10 @@
 	<script src="js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
 	<script src="js/isotope.min.js"></script>
 	<script src="js/main.js"></script>
-
 	<script src="js/markerclusterer.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhAYvx0GmLyN5hlf6Uv_e9pPvUT3YpozE"></script>
 	<script src="js/google-maps.js"></script>
+
 	<script>
 		$(document).ready(changeHeaderColor);
 		$(window).on('resize', changeHeaderColor);
