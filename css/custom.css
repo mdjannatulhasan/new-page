@@ -206,6 +206,10 @@ ul.b-crumbs > li a:hover {
 .slider-arrows{
     position: relative;
 }
+.prop-main-atts dt .prop-i-info-icon,.prop-i-info-icon {
+    align-items: center !important;
+    display: flex !important;
+}
 @media (min-width: 992px){
     .post-slider .swiper-pagination-fraction {
         margin: 0 0 75px 455px !important;
