@@ -182,6 +182,12 @@ ul.b-crumbs > li a:hover {
 .subscribe-container{
     border-bottom:1px solid #e1e5ee; ;
 }
+.subscribe-container .f2-subscribe{
+    margin-bottom: 0px !important;
+}
+.subscribe-container form{
+    max-width: 400px;
+}
 @media (min-width: 992px){
     .post-slider .swiper-pagination-fraction {
         margin: 0 0 75px 455px !important;
