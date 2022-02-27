@@ -210,6 +210,9 @@ ul.b-crumbs > li a:hover {
     align-items: center !important;
     display: flex !important;
 }
+i{
+    font-size: 16px;
+}
 @media (min-width: 992px){
     .post-slider .swiper-pagination-fraction {
         margin: 0 0 75px 455px !important;
