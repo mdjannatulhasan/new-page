@@ -179,6 +179,12 @@ ul.b-crumbs > li a:hover {
     width: 100%;
     z-index: 1;
 }
+.display-5{
+    font-size: 35px !important;
+}
+.text-white{
+    color: #ffffff !important;
+}
 .subscribe-container{
     border-bottom:1px solid #e1e5ee; ;
 }
