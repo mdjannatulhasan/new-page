@@ -109,13 +109,14 @@ ul.b-crumbs > li a:hover {
 .head-hide{
     visibility:hidden ;
 }
+
+.mainmenu3 > ul > li{
+    margin: 15px 0 !important;
+}
 .submenu1.mainmenu3 ul{
     display: flex;
     justify-content: center;
-    gap: 8px;
-}
-.mainmenu > ul > li{
-    margin: 15px 0;
+    gap: 20px !important;
 }
 @media only screen and (max-width:993px) {
     #header.dark {
