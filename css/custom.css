@@ -199,9 +199,6 @@ ul.b-crumbs > li a:hover {
         padding-top: 24px !important;
         padding-bottom: 24px !important;
     }
-    .container{
-        width: 970px;
-    }
 }
 @media (min-width: 992px){
     #header.floating-header .mega-menu-content {
@@ -210,6 +207,11 @@ ul.b-crumbs > li a:hover {
     #header.floating-header .mega-menu-content {
         width: 100% !important;
         margin: 0;max-width: 936px !important;
+    }
+    .display-2{
+        font-size: 88px;
+        font-weight: 700;
+        line-height: 105px;
     }
 }
 @media only screen and (min-width:1200px) {
@@ -220,22 +222,16 @@ ul.b-crumbs > li a:hover {
         min-height: 85vh;
         padding: 0 !important;
     }
-    .container{
-        width: 1200px !important;
-    }
 }
 @media only screen and (min-width:1400px) {
     #header.floating-header .mega-menu-content {
         max-width: 1296px !important;width: 100% !important;
     }
-    .container{
-        width: 1200px;
-    }
 }
 .header-size-custom #logo img {
     height: 70px !important;
 }
-/* Slider rule */
+
 @media only screen and (max-width: 1229px){
     .post-slider .swiper-pagination-fraction{
         margin: 0 0 75px 340px !important;
@@ -256,10 +252,7 @@ ul.b-crumbs > li a:hover {
     
 }
 @media only screen and (max-width:768px) {
-    .v-padding{
-        /* min-height: 85vh; */
-        padding: 110px 0 140px;
-    }
+    
     .post-slider .swiper-pagination-fraction {
         margin: 0 0 75px 50px !important;
     }
