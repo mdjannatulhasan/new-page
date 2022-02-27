@@ -111,14 +111,14 @@ ul.b-crumbs > li a:hover {
     visibility:hidden ;
 }
 
-.mainmenu3 > ul > li{
+/* .mainmenu3 > ul > li{
     margin: 15px 0 !important;
-}
-.submenu1.mainmenu3 > ul{
+} */
+/* .submenu1.mainmenu3 > ul{
     display: flex;
     justify-content: center;
     gap: 20px !important;
-}
+} */
 .slider-text{
     max-width: 700px;
 }
