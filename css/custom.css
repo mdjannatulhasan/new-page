@@ -223,7 +223,7 @@ li > i{
 
 @media (min-width: 992px){
     .post-slider .swiper-pagination-fraction {
-        margin: 0 0 135px 455px !important;
+        margin: 0 0 138px 455px !important;
     }
     .prop-main{
         margin-bottom: 10px !important;
@@ -233,7 +233,7 @@ li > i{
         padding-bottom: 24px !important;
     }
     .post-slider .swiper-button-prev, .post-slider .swiper-button-next {
-        bottom: 155px;
+        bottom: 158px;
     }
     #top-lifted{
         margin-top: -129px;
