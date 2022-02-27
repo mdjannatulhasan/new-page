@@ -134,6 +134,50 @@ ul.b-crumbs > li a:hover {
     padding-top: 25px;
     border-top: 1px solid #e1e5ee;
 }
+.swiper-container:hover .swiper-button-prev,.swiper-container:hover .swiper-button-next {
+    display: block;
+}
+.swiper-button-prev, .swiper-button-next {
+    position: absolute;
+    width: 35px;
+    height: 40px;
+    background-color: #3459B4;
+    z-index: 2;
+    display: flex;
+    padding: 10px;
+    background-image: none !important;
+    display: none;
+}
+.after-prev{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: relative !important;
+}
+.swiper-button-prev img{
+    height: 100%;
+}
+.video-bg{
+    position: relative;
+    overflow: hidden;
+    min-height: 160px;
+    border-radius: 2px;
+}
+.video-bg .video-header{
+    position: absolute;
+    inset: 20px;
+    z-index: 10;
+}
+.video-header p{
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+#background-video{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    z-index: 1;
+}
 @media (min-width: 992px){
     .post-slider .swiper-pagination-fraction {
         margin: 0 0 75px 455px !important;
