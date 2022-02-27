@@ -103,6 +103,12 @@ ul.b-crumbs > li a:hover {
     top: calc(85vh - 500px);
     z-index: 2;
 }
+#title-fix h2{
+    color: #ffffff;
+}
+.head-hide{
+    visibility:hidden ;
+}
 @media only screen and (max-width:993px) {
     #header.dark {
         background-color: #333!important;

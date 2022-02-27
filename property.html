@@ -189,20 +189,19 @@
 		</div>
 
 		<div class="slider-hero" id="slider-hero">
-			<div id="title-fix" class="parallax" data-0="transform: translateY(0px); opacity: 1" data-300="transform: translateY(50px); opacity: 0">
+			<div class="container">
+				<div id="title-fix" class="parallax" data-0="transform: translateY(0px); opacity: 1" data-300="transform: translateY(50px); opacity: 0">
 					<!-- col-lg-6-->
-					<div class="container">
-						
-					</div>
 					<h2 class="fw-bold display-2 mb-0">Calgary</h2>
 				</div>
+			</div>
 			<div class="swiper-container post-slider" id="post-slider">
 
 				<div class="swiper-wrapper">
 					<div class="swiper-slide post-slide">
 						<div id="slider" class="slider-element" style="background: linear-gradient(to right, rgba(0,0,0, 0.4) 20%, transparent 100%), url('demos/hostel/images/hero1.jpg') no-repeat center center / cover;">
 
-							<div>
+							<div class="container">
 								<div class="vertical-middle min-vh-85">
 
 									<div class="row justify-content-between">
@@ -212,7 +211,7 @@
 											<div class="parallax" data-0="transform: translateY(0px); opacity: 1"
 												data-300="transform: translateY(50px); opacity: 0">
 												<!-- col-lg-6-->
-												<h2 class="fw-bold display-2 mb-0">Calgary</h2>
+												<h2 id="title-for-height1" class="head-hide fw-bold display-2 mb-0">Calgary</h2>
 												<p class="fw-bold mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aspernatur, ratione debitis nesciunt voluptas minima unde repellendus provident at numquam dolorem sequi molestias iure culpa sunt laudantium sapiente soluta aliquid?
 												Est at labore quibusdam? Totam amet quae enim facere? Id nulla ea enim doloribus dolorem nihil excepturi vel, consectetur earum aliquid dolore quia adipisci expedita dicta, officia laboriosam quam officiis?</p>
 											</div>
@@ -238,7 +237,7 @@
 											<div class="parallax" data-0="transform: translateY(0px); opacity: 1"
 												data-300="transform: translateY(50px); opacity: 0">
 												<!-- col-lg-6-->
-												<h2 class="fw-bold display-2 mb-0">Calgary</h2>
+												<h2 class="head-hide fw-bold display-2 mb-0">Calgary</h2>
 											</div>
 					
 										</div>
@@ -893,10 +892,10 @@
 		var titleH= document.getElementById('title-fix').offsetHeight;
 		console.log(objH, titleH);
 		console.log((objH - objH/2 - titleH)+'px');
-		document.getElementById('title-fix').style.top = (objH - objH/2 - titleH)+'px';
+		document.getElementById('title-fix').style.top = (objH - objH/2 - titleH+8)+'px';
 		document.querySelector('#title-fix h2').style.color = 'red !important';
 		document.getElementById('slider-hero').addEventListener('onresize',function(){
-			document.getElementById('title-fix').style.top = objH - objH/2 - titleH;
+			document.getElementById('title-fix').style.top = (objH - objH/2 - titleH+8)+'px';
 		});
 
 	</script>
