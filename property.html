@@ -56,7 +56,7 @@
 	============================================= -->
 	<div id="wrapper" class="clearfix">
 		<div class="" style="background-color: #ffffff;">
-		<div class="container" >
+		<div class="" >
 			<header class="site-header3 site-header3-white">
 				<a href="index-detailed.html" class="h-logo">
 					<div class="h-logo-inner">
@@ -397,7 +397,13 @@
 							<img src="images/prop1.jpeg" alt="">
 						</a>
 						<div class="prop-i-top">
-							<p class="prop-i-loc"><a href="catalog-grid.html">Brooklyn</a>, <a href="catalog-grid.html">USA</a></p>
+							<ul class="prop-i-rating">
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+								<li><i class="ion-android-star"></i></li>
+							</ul>
 							<div class="prop-i-moreinfo">
 								<ul>
 									<li class="prop-i-date">
@@ -420,13 +426,11 @@
 						<h3 class="prop-i-ttl">
 							<a href="property.html">Apartment 21 Sqrt</a>
 						</h3>
-						<ul class="prop-i-rating">
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-							<li><i class="ion-android-star"></i></li>
-						</ul>
+						<div class="prop-i-title">
+							<p class="prop-i-loc"><a href="catalog-grid.html">Brooklyn</a>, <a href="catalog-grid.html">USA</a></p>
+						</div>
+						
+						
 						<dl class="prop-i-info">
 							<dt>
 								<span class="prop-i-info-icon"><img src="img/propinfo1.png" alt=""></span>
@@ -891,9 +895,7 @@
 		var objH= document.getElementById('slider-hero').offsetHeight;
 		var titleH= document.getElementById('title-fix').offsetHeight;
 		var anotherH= document.getElementById('head-offset').offsetTop;
-		console.log(objH, titleH);
-		console.log((objH - objH/2 - titleH)+'px');
-		// document.getElementById('title-fix').style.top = (objH - objH/2 - titleH+8)+'px';
+
 		document.getElementById('title-fix').style.top = (anotherH)+'px';
 		document.querySelector('#title-fix h2').style.color = 'red !important';
 		document.getElementById('slider-hero').addEventListener('onresize',function(){
