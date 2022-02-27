@@ -52,7 +52,7 @@ body,html, #wrapper{
     color: #FFFFFF !important;
 }
 #top-lifted{
-    margin-top: -160px;
+    margin-top: -60px;
 }
 .min-vh-85{
     min-height: 85vh;
@@ -81,6 +81,18 @@ ul.b-crumbs > li a:hover {
     border-bottom-right-radius: 2px !important;
     margin-top: -2px !important;
 }
+.post-slider .swiper-pagination-fraction {
+    margin: 0 0 60px 455px !important;
+}
+.mainmenu3 > ul > li.active:before {
+    
+    border-right: 10px solid #c92020;
+    border-bottom: 20px solid #c92020;
+}
+.special-marked{
+    color:#ffffff !important;
+}
+
 @media only screen and (max-width:993px) {
     #header.dark {
         background-color: #333!important;

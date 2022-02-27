@@ -106,7 +106,7 @@ a {
 }
 a:hover {
     text-decoration: none;
-    color: #3357b4;
+    color: #c92020;
 }
 input[type=text],
 input[type=submit],
@@ -260,14 +260,14 @@ input:focus {
     font-size: 16px;
 }
 .stylization a {
-    color: #3357b4;
+    color: #c92020;
     text-decoration: none;
     transition: all 0.2s;
     border-bottom: 1px solid transparent;
 }
 .stylization a:hover {
     text-decoration: none;
-    border-color: #3357b4;
+    border-color: #c92020;
 }
 .stylization strong,
 .stylization b {
@@ -328,7 +328,7 @@ input:focus {
 }
 .stylization mark,
 .stylization ins {
-    background: #3357b4;
+    background: #c92020;
     color: #fff;
     padding: 2px 4px;
     text-decoration: none;
@@ -357,8 +357,8 @@ input:focus {
     content: '';
     top: 3px;
     height: 3px;
-    border-top: 1px solid #3357b4;
-    border-bottom: 1px solid #3357b4;
+    border-top: 1px solid #c92020;
+    border-bottom: 1px solid #c92020;
     left: 50%;
     width: 40px;
     margin: 0 0 0 -20px;
@@ -369,8 +369,8 @@ input:focus {
     content: '';
     bottom: 3px;
     height: 3px;
-    border-top: 1px solid #3357b4;
-    border-bottom: 1px solid #3357b4;
+    border-top: 1px solid #c92020;
+    border-bottom: 1px solid #c92020;
     left: 50%;
     width: 40px;
     margin: 0 0 0 -20px;
@@ -569,7 +569,7 @@ body .btn1:hover {
 
 body .btn2 {
     border: none;
-    background-color: #3357b4;
+    background-color: #c92020;
     transition: background-color 0.2s;
     font-weight: 500;
     font-size: 14px;
@@ -587,7 +587,7 @@ body .btn2 {
 body .btn2:hover {
     color: #ffffff;
     text-decoration: none;
-    background-color: #4d71cd;
+    background-color: #ff4243;
 }
 body .btn2:before {
     display: block;
@@ -595,8 +595,8 @@ body .btn2:before {
     content: '';
     bottom: 0;
     left: -20px;
-    border-right: 10px solid #3357b4;
-    border-bottom: 20px solid #3357b4;
+    border-right: 10px solid #c92020;
+    border-bottom: 20px solid #c92020;
     border-left: 10px solid transparent;
     border-top: 20px solid transparent;
     transition: border-color 0.2s;
@@ -607,23 +607,23 @@ body .btn2:after {
     content: '';
     bottom: 0;
     right: -20px;
-    border-left: 10px solid #3357b4;
-    border-top: 20px solid #3357b4;
+    border-left: 10px solid #c92020;
+    border-top: 20px solid #c92020;
     border-right: 10px solid transparent;
     border-bottom: 20px solid transparent;
     transition: border-color 0.2s;
 }
 body .btn2:hover:before {
-    border-right-color: #4d71cd;
-    border-bottom-color: #4d71cd;
+    border-right-color: #ff4243;
+    border-bottom-color: #ff4243;
 }
 body .btn2:hover:after {
-    border-left-color: #4d71cd;
-    border-top-color: #4d71cd;
+    border-left-color: #ff4243;
+    border-top-color: #ff4243;
 }
 
 .special-marked {
-    background-color: #3357b4;
+    background-color: #c92020;
     display: inline-block;
     padding-left: 20px;
     padding-right: 20px;
@@ -748,7 +748,7 @@ body .btn2:hover:after {
 }
 .site-header1 .h-contacts a {
     transition: color 0.2s;
-    color: #3357b4;
+    color: #c92020;
 }
 .site-header1 .h-contacts a:hover {
     color: #f3a249;
@@ -883,7 +883,7 @@ body .btn2:hover:after {
         font-weight: 500;
         font-size: 15px;
         color: #fff;
-        background-color: #3357b4;
+        background-color: #c92020;
         letter-spacing: 0.05em;
         transition: background-color 0.2s;
         cursor: pointer;
@@ -1028,7 +1028,7 @@ body .btn2:hover:after {
     font-size: 16px;
 }
 .site-header3 .h-logo.overlay {
-    background-color: #3357b4;
+    background-color: #c92020;
 }
 .site-header3 .h-logo.overlay:after {
     display: block;
@@ -1079,7 +1079,7 @@ body .btn2:hover:after {
     margin-right: 0;
 }
 .site-header3 .h-social li a {
-    color: #3357b4;
+    color: #c92020;
     transition: color 0.2s;
 }
 .site-header3 .h-social li a:hover {
@@ -1090,7 +1090,7 @@ body .btn2:hover:after {
     font-size: 19px;
 }
 .site-header3 .h-email a {
-    color: #3357b4;
+    color: #c92020;
     transition: color 0.2s;
 }
 .site-header3 .h-email a:hover {
@@ -1133,11 +1133,11 @@ MENU 3
     letter-spacing: 0.06em;
 }
 .mainmenu3 > ul > li > a:hover {
-    color: #3357b4;
+    color: #c92020;
 }
 .mainmenu3 > ul > li.active > a {
     position: relative;
-    background-color: #3357b4;
+    background-color: #c92020;
     color: #fff;
     padding-left: 22px;
     padding-right: 22px;
@@ -1150,8 +1150,8 @@ MENU 3
     content: '';
     bottom: 0;
     left: -20px;
-    border-right: 10px solid #3357b4;
-    border-bottom: 20px solid #3357b4;
+    border-right: 10px solid #c92020;
+    border-bottom: 20px solid #c92020;
     border-left: 10px solid transparent;
     border-top: 20px solid transparent;
 }
@@ -1161,8 +1161,8 @@ MENU 3
     content: '';
     bottom: 0;
     right: -20px;
-    border-left: 10px solid #3357b4;
-    border-top: 20px solid #3357b4;
+    border-left: 10px solid #c92020;
+    border-top: 20px solid #c92020;
     border-right: 10px solid transparent;
     border-bottom: 20px solid transparent;
 }
@@ -1273,7 +1273,7 @@ MENU 3
         margin: 0;
         padding: 0 30px 0 35px;
         height: 80px;
-        background-color: #3357b4;
+        background-color: #c92020;
     }
     .site-header3 .mainmenu-btn-wrap:hover {
         background-color: #385fc4;
@@ -1319,7 +1319,7 @@ MENU 3
     }
 
     .site-header3-white .mainmenu-btn-wrap {
-        color: #3357b4;
+        color: #c92020;
         background-color: #fff;
     }
     .site-header3-white .mainmenu-btn-wrap:hover {
@@ -1329,7 +1329,7 @@ MENU 3
         background-color: #eeeff5;
     }
     .site-header3-white .mainmenu-btn-line {
-        background: #3357b4;
+        background: #c92020;
     }
 }
 
@@ -1443,7 +1443,7 @@ MENU 3
 .site-header5 .h-email {
 }
 .site-header5 .h-email a {
-    color: #3357b4;
+    color: #c92020;
     transition: color 0.2s;
 }
 .site-header5 .h-email a:hover {
@@ -1485,7 +1485,7 @@ MENU 3
 }
 .site-header5 .search-btn {
     font-size: 34px;
-    color: #3357b4;
+    color: #c92020;
     position: absolute;
     right: 40px;
     top: 50%;
@@ -1673,7 +1673,7 @@ MENU 3
     position: absolute;
     height: 3px;
     width: 43px;
-    background: #3357b4;
+    background: #c92020;
     opacity: 1;
     left: 0;
     -webkit-transform: rotate(0deg);
@@ -1749,7 +1749,7 @@ MENU 3
     top: 25px;
     left: 50px;
     font-size: 45px;
-    color: #3357b4;
+    color: #c92020;
     display: block;
     border: none;
     transition: color 0.2s;
@@ -1820,7 +1820,7 @@ body.menu-opened:after {
     font-size: 20px;
     cursor: pointer;
     transition: all 0.2s;
-    color: #3357b4;
+    color: #c92020;
 }
 .mainmenu > ul li.menu-item-has-children.opened > a > .fa:before {
     content: '\f0d8';
@@ -1829,7 +1829,7 @@ body.menu-opened:after {
     color: #f3a249;
 }
 .mainmenu > ul > li > a {
-    color: #3357b4;
+    color: #c92020;
     display: block;
     transition: color 0.2s;
     height: 100%;
@@ -1871,7 +1871,7 @@ body.menu-opened:after {
     color: #323946;
 }
 .mainmenu > ul li.menu-item-has-children li.menu-item-has-children > a > .fa:hover {
-    color: #3357b4;
+    color: #c92020;
 }
 
 
@@ -2160,7 +2160,7 @@ MENU 2
 }
 .submenu1 > ul > li.menu-item-has-children:hover > a:after {
     content: '\f0d8';
-    color: #3357b4;
+    color: #c92020;
 }
 .mainmenu1.submenu1 > ul > li.menu-item-has-children.active > a:after {
     right: 30px;
@@ -2208,7 +2208,7 @@ MENU 2
     z-index: 10;
 
     padding: 8px 0 8px 0;
-    border-top: 4px solid #3357b4;
+    border-top: 4px solid #c92020;
 }
 .mainmenu2 > ul li.menu-item-has-children:hover > ul {
     border-top: none;
@@ -2272,11 +2272,11 @@ MENU 2
 }
 .submenu1 > ul > li ul > li > a:hover {
     background-color: #f0f1f5;
-    /*color: #3357b4;*/
+    /*color: #c92020;*/
 }
 .submenu1 > ul > li ul > li.active > a {
     color: #fff;
-    background-color: #3357b4;
+    background-color: #c92020;
 }
 /*.submenu1.submenu-color2 > ul > li ul > li > a:hover {
 	color: #f3a249;
@@ -2794,7 +2794,7 @@ MENU 3
     position: absolute;
     content: '';
     display: block;
-    border-left: 4px solid #3357b4;
+    border-left: 4px solid #c92020;
     border-right: 4px solid transparent;
     border-top: 4px solid transparent;
     border-bottom: 4px solid transparent;
@@ -2882,7 +2882,7 @@ MENU 3
     position: absolute;
     content: '';
     display: block;
-    border-left: 4px solid #3357b4;
+    border-left: 4px solid #c92020;
     border-right: 4px solid transparent;
     border-top: 4px solid transparent;
     border-bottom: 4px solid transparent;
@@ -2960,7 +2960,7 @@ MENU 3
 }
 .booking .booking-qnt .booking-minus:after {
     height: 2px;
-    background-color: #3357b4;
+    background-color: #c92020;
     content: '';
     top: 50%;
     left: 0;
@@ -2983,7 +2983,7 @@ MENU 3
 }
 .booking .booking-qnt .booking-plus:after {
     height: 2px;
-    background-color: #3357b4;
+    background-color: #c92020;
     content: '';
     top: 50%;
     left: 0;
@@ -2998,7 +2998,7 @@ MENU 3
     bottom: 0;
     left: 50%;
     margin: 0 0 0 -1px;
-    background-color: #3357b4;
+    background-color: #c92020;
     content: '';
     position: absolute;
     transition: background-color 0.2s;
@@ -3142,7 +3142,7 @@ MENU 3
 .search2-submit input[type=submit] {
     display: block;
     border: none;
-    background-color: #3357b4;
+    background-color: #c92020;
     width: 100%;
     height: 100%;
     transition: background-color 0.2s;
@@ -3186,7 +3186,7 @@ MENU 3
     width: 250px;
     height: 50px;
     margin: 0;
-    background-color: #3357b4;
+    background-color: #c92020;
     border-radius: 3px 0 0 0;
     position: relative;
     transition: background-color 0.2s;
@@ -3197,8 +3197,8 @@ MENU 3
     content: '';
     top: 0;
     right: -30px;
-    border-left: 15px solid #3357b4;
-    border-top: 25px solid #3357b4;
+    border-left: 15px solid #c92020;
+    border-top: 25px solid #c92020;
     border-right: 15px solid transparent;
     border-bottom: 25px solid transparent;
     transition: border-color 0.2s;
@@ -3250,7 +3250,7 @@ MENU 3
     transition: color 0.2s;
 }
 .search2-top .search2-status:hover {
-    color: #3357b4;
+    color: #c92020;
 }
 .search2-top .search2-status.search2-status-1 {
     min-width: 100px;
@@ -3392,7 +3392,7 @@ MENU 3
     display: none;
 }
 .search2 .search2-values .search2-label-val span:hover {
-    color: #3357b4;
+    color: #c92020;
 }
 .search2 .search2-values .search2-label-val span i {
     position: relative;
@@ -3401,12 +3401,12 @@ MENU 3
 }
 .search2 .search2-values input[type=checkbox]:checked + span,
 .search2 .search2-values input[type=radio]:checked + span {
-    /*background-color: #3357b4;*/
+    /*background-color: #c92020;*/
     color: #FFFFFF;
 }
 .search2 .search2-values input[type=checkbox]:checked + span:after,
 .search2 .search2-values input[type=radio]:checked + span:after {
-    background-color: #3357b4;
+    background-color: #c92020;
     content: '';
     display: block;
     top: -1px;
@@ -3533,7 +3533,7 @@ MENU 3
 }
 .search2-features label input[type=checkbox]:checked + span:after {
     border: none;
-    background-color: #3357b4;
+    background-color: #c92020;
     content: '\f383';
 }
 
@@ -3561,7 +3561,7 @@ MENU 3
 .widget-searchform .search2-locations .chosen-container-single .chosen-single {
     height: 60px;
     line-height: 58px;
-    background-color: #3357b4;
+    background-color: #c92020;
     color: #ffffff;
     border: none;
     border-radius: 3px 3px 0 0;
@@ -3604,7 +3604,7 @@ MENU 3
     padding: 36px 40px 36px;
     margin: 0;
     line-height: 1;
-    color: #3357b4;
+    color: #c92020;
     transition: color 0.2s;
     cursor: pointer;
     position: relative;
@@ -3621,7 +3621,7 @@ MENU 3
     font-family: FontAwesome;
     line-height: 1;
     margin: -7px 0 0;
-    color: #3357b4;
+    color: #c92020;
     transition: color 0.2s;
 }
 .widget-searchform .search2-features-toggle.opened {
@@ -3851,10 +3851,10 @@ MENU 3
 .prop-i .prop-i-loc {
     font-size: 16px;
     margin: 0;
-    color: #3357b4;
+    color: #c92020;
 }
 .prop-i .prop-i-loc a {
-    color: #3357b4;
+    color: #c92020;
     border-bottom: 1px solid transparent;
     transition: all 0.2s;
 }
@@ -3981,7 +3981,7 @@ MENU 3
 }
 .prop-i .prop-i-moreinfo ul .prop-i-agent-name a {
     transition: color 0.2s;
-    color: #3357b4;
+    color: #c92020;
     border: none;
 }
 .prop-i .prop-i-moreinfo ul .prop-i-agent-name a:hover {
@@ -4056,7 +4056,7 @@ MENU 3
 .prop-i .prop-i-info dd {
     float: left;
     width: 40%;
-    color: #3357b4;
+    color: #c92020;
     margin: 0 0 14px;
     font-size: 16px;
 }
@@ -4653,13 +4653,13 @@ button.prop-items-more:hover {
     padding: 0 430px 0 0;
 }
 .prop-main-loc {
-    color: #3357b4;
+    color: #c92020;
     margin: 0 0 7px;
     font-size: 16px;
 }
 .prop-main-loc a {
     transition: color 0.2s;
-    color: #3357b4;
+    color: #c92020;
 }
 .prop-main-loc a:hover {
     color: #f3a249;
@@ -4768,12 +4768,12 @@ button.prop-items-more:hover {
 }
 .prop-main-atts dd {
     float: left;
-    color: #3357b4;
+    color: #c92020;
     margin: 0 0 17px;
     font-size: 16px;
 }
 .prop-main-atts dd a {
-    color: #3357b4;
+    color: #c92020;
     transition: color 0.2s;
 }
 .prop-main-atts dd a:hover {
@@ -4946,7 +4946,7 @@ button.prop-items-more:hover {
 .prop-agent h3 {
     font-size: 16px;
     margin: 0 0 17px;
-    color: #3357b4;
+    color: #c92020;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -4954,7 +4954,7 @@ button.prop-items-more:hover {
     font-weight: 400;
 }
 .prop-agent h3 a {
-    color: #3357b4;
+    color: #c92020;
     transition: color 0.2s;
 }
 .prop-agent h3 a:hover {
@@ -5149,7 +5149,7 @@ button.prop-items-more:hover {
     width: 14px;
     height: 14px;
     overflow: hidden;
-    background-color: #3357b4;
+    background-color: #c92020;
     content: '\f383';
     font-family: Ionicons;
     font-size: 14px;
@@ -5368,13 +5368,13 @@ button.prop-items-more:hover {
         color: #323946;
     }
     .prop-slider .b-crumbs li a {
-        color: #3357b4;
+        color: #c92020;
     }
     .prop-slider .b-crumbs li a {
-        color: #3357b4;
+        color: #c92020;
     }
     .prop-slider .b-crumbs li a:hover {
-        border-color: #3357b4;
+        border-color: #c92020;
     }
     .prop-slider .prop-date {
         position: relative;
@@ -5565,10 +5565,10 @@ PADDING IN MOBILE
     margin: 0 0 8px;
     float: left;
     font-size: 16px;
-    color: #3357b4;
+    color: #c92020;
 }
 .agent-i .agent-i-type a {
-    color: #3357b4;
+    color: #c92020;
     transition: color 0.2s;
 }
 .agent-i .agent-i-type a:hover {
@@ -5618,10 +5618,10 @@ PADDING IN MOBILE
     position: relative;
     padding: 0 0 0 41px;
     font-size: 16px;
-    color: #3357b4;
+    color: #c92020;
 }
 .agent-i .agent-i-contacts li a {
-    color: #3357b4;
+    color: #c92020;
     transition: color 0.2s;
 }
 .agent-i .agent-i-contacts li a:hover {
@@ -5662,7 +5662,7 @@ PADDING IN MOBILE
     font-size: 14px;
     color: #ffffff;
     text-transform: uppercase;
-    background-color: #3357b4;
+    background-color: #c92020;
     transition: background-color 0.2s;
     display: block;
     box-shadow: 0 6px 18px 0 rgba(51,87,180,0.2);
@@ -5785,10 +5785,10 @@ PADDING IN MOBILE
 .agent-detail .agent-detail-type {
     margin: 0 0 11px;
     font-size: 16px;
-    color: #3357b4;
+    color: #c92020;
 }
 .agent-detail .agent-detail-type a {
-    color: #3357b4;
+    color: #c92020;
     transition: color 0.2s;
 }
 .agent-detail .agent-detail-type a:hover {
@@ -5855,12 +5855,12 @@ PADDING IN MOBILE
 .agent-detail .agent-detail-info dd {
     float: left;
     width: 61%;
-    color: #3357b4;
+    color: #c92020;
     margin: 0 0 17px;
     font-size: 16px;
 }
 .agent-detail .agent-detail-info a {
-    color: #3357b4;
+    color: #c92020;
     transition: color 0.2s;
 }
 .agent-detail .agent-detail-info a:hover {
@@ -5891,7 +5891,7 @@ PADDING IN MOBILE
     margin-right: 0;
 }
 .agent-detail .agent-detail-social li a {
-    color: #3357b4;
+    color: #c92020;
     transition: color 0.2s;
 }
 .agent-detail .agent-detail-social li a:hover {
@@ -6117,7 +6117,7 @@ PADDING IN MOBILE
     font-size: 16px;
 }
 .post-i .post-i-categs a {
-    color: #3357b4;
+    color: #c92020;
     transition: color 0.2s;
 }
 .post-i .post-i-categs a:hover {
@@ -6163,7 +6163,7 @@ PADDING IN MOBILE
     margin: 20px 0 0;
 }
 .post-i .post-i-more:hover {
-    color: #3357b4;
+    color: #c92020;
 }
 
 
@@ -6444,7 +6444,7 @@ PADDING IN MOBILE
     font-size: 16px;
 }
 .post-top .post-categs a {
-    color: #3357b4;
+    color: #c92020;
     transition: color 0.2s;
     border: none;
 }
@@ -6516,14 +6516,14 @@ PADDING IN MOBILE
     color: #f3a249;
 }
 .post-cont .post-author .post-author-name {
-    color: #3357b4;
+    color: #c92020;
     font-weight: 500;
     margin: 0 0 10px;
     font-size: 20px;
     line-height: 1;
 }
 .post-cont .post-author .post-author-name a {
-    color: #3357b4;
+    color: #c92020;
     transition: color 0.2s;
 }
 .post-cont .post-author .post-author-name a:hover {
@@ -6543,7 +6543,7 @@ PADDING IN MOBILE
     font-size: 20px;
 }
 .post-cont .post-share li a {
-    color: #3357b4;
+    color: #c92020;
     border: none;
     transition: color 0.2s;
 }
@@ -6590,7 +6590,7 @@ PADDING IN MOBILE
     font-weight: 500;
     margin: 0 0 13px;
     font-size: 20px;
-    color: #3357b4;
+    color: #c92020;
     letter-spacing: 0.04em;
 }
 .post-comments-form textarea {
@@ -6632,8 +6632,8 @@ PADDING IN MOBILE
     content: '';
     bottom: 0;
     left: -20px;
-    border-right: 10px solid #3357b4;
-    border-bottom: 20px solid #3357b4;
+    border-right: 10px solid #c92020;
+    border-bottom: 20px solid #c92020;
     border-left: 10px solid transparent;
     border-top: 20px solid transparent;
     transition: border-color 0.2s;
@@ -6644,8 +6644,8 @@ PADDING IN MOBILE
     content: '';
     bottom: 0;
     right: -20px;
-    border-left: 10px solid #3357b4;
-    border-top: 20px solid #3357b4;
+    border-left: 10px solid #c92020;
+    border-top: 20px solid #c92020;
     border-right: 10px solid transparent;
     border-bottom: 20px solid transparent;
     transition: border-color 0.2s;
@@ -6691,7 +6691,7 @@ PADDING IN MOBILE
     margin: 0 25px 13px 0;
     font-size: 20px;
     font-weight: 500;
-    color: #3357b4;
+    color: #c92020;
     line-height: 1;
     vertical-align: top;
 }
@@ -6832,13 +6832,13 @@ PADDING IN MOBILE
         color: #323946;
     }
     .post-slider .b-crumbs li a {
-        color: #3357b4;
+        color: #c92020;
     }
     .post-slider .b-crumbs li a {
-        color: #3357b4;
+        color: #c92020;
     }
     .post-slider .b-crumbs li a:hover {
-        border-color: #3357b4;
+        border-color: #c92020;
     }
 
     .post-cont .post-bottom {
@@ -6982,7 +6982,7 @@ PADDING IN MOBILE
     cursor: pointer;
     font-size: 14px;
     text-align: center;
-    color: #3357b4;
+    color: #c92020;
     transition: all 0.2s;
     content: '\f0da';
     font-family: FontAwesome;
@@ -6990,7 +6990,7 @@ PADDING IN MOBILE
 }
 .categs-list ul li span {
     font-size: 16px;
-    color: #3357b4;
+    color: #c92020;
     position: absolute;
     top: 0;
     right: 0;
@@ -7087,7 +7087,7 @@ ul.gallery-grid {
     font-family: FontAwesome;
     padding: 0 0 0 6px;
     background: rgba(255,255,255,0.95);
-    color: #3357b4;
+    color: #c92020;
 }
 .gallery-grid .gallery-grid-inner {
     position: relative;
@@ -7381,7 +7381,7 @@ p.gallery-grid-more a.loading {
     position: absolute;
     box-shadow: 0 6px 18px 0 rgba(51, 87, 180, 0.2);
     display: block;
-    background: #3357b4;
+    background: #c92020;
     cursor: pointer;
     padding: 0 15px;
     border-radius: 3px;
@@ -7752,7 +7752,7 @@ body .color-grey {
 }
 .testimonials-i .testimonials-i-info h3 {
     font-weight: 700;
-    color: #3357b4;
+    color: #c92020;
     font-size: 20px;
     margin: 0 0 8px;
     padding: 0;
@@ -7929,7 +7929,7 @@ body .color-grey {
     text-align: center;
     display: block;
     font-size: 30px;
-    background: #3357b4;
+    background: #c92020;
     margin: 0 auto 46px;
     box-shadow: 0 6px 18px 0 rgba(24,104,188,0.2);
 }
@@ -7968,7 +7968,7 @@ body .color-grey {
     text-align: center;
     display: block;
     font-size: 30px;
-    background: #3357b4;
+    background: #c92020;
     margin: 0 auto 24px;
 }
 
@@ -8018,7 +8018,7 @@ body .color-grey {
 }
 .iconblock-list .iconblock-i .iconblock-i-count {
     font-size: 18px;
-    color: #3357b4;
+    color: #c92020;
     margin: 0 0 4px;
 }
 .iconblock-list .iconblock-i .iconblock-i-ttl {
@@ -8160,7 +8160,7 @@ body .color-grey {
     line-height: 1.6;
 }
 .promobox-i .promobox-i-link {
-    background: #3357b4;
+    background: #c92020;
     position: absolute;
     text-align: center;
     top: 50%;
@@ -8179,7 +8179,7 @@ body .color-grey {
     text-transform: uppercase;
 }
 .promobox-i .promobox-i-link:hover {
-    background: #4d71cd;
+    background: #ff4243;
 }
 .promobox-i .promobox-i-img {
     margin: -43px 0 0;
@@ -8210,7 +8210,7 @@ body .color-grey {
     position: absolute;
     top: 50%;
     left: 45px;
-    background: #3357b4;
+    background: #c92020;
     text-align: center;
 }
 .promobox-i .promobox-i-icon i {
@@ -8259,7 +8259,7 @@ body .color-grey {
 }
 .team-i h3 {
     font-size: 20px;
-    color: #3357b4;
+    color: #c92020;
     margin: 0 0 14px;
     line-height: 120%;
 }
@@ -8269,7 +8269,7 @@ body .color-grey {
 .team-i h3 a {
     border: none;
     transition: color 0.2s;
-    color: #3357b4;
+    color: #c92020;
 }
 .team-i h3 a:hover {
     color: #f3a249;
@@ -8357,7 +8357,7 @@ body .color-grey {
     border: none;
 }
 .absolute-tabs li a:hover {
-    color: #3357b4;
+    color: #c92020;
     text-decoration: none;
 }
 .absolute-tabs li a.active {
@@ -8400,10 +8400,10 @@ body .color-grey {
     margin: 0 !important;
 }
 .absolute-tab-mob:hover {
-    color: #3357b4;
+    color: #c92020;
 }
 .absolute-tab-mob.active {
-    color: #3357b4;
+    color: #c92020;
 }
 .absolute-tab-mob.active:before {
     position: absolute;
@@ -8414,7 +8414,7 @@ body .color-grey {
     box-sizing: content-box;
     padding: 0 1px;
     height: 3px;
-    background: #3357b4;
+    background: #c92020;
 }
 .absolute-tab .flex-direction-nav a {
     width: 40px;
@@ -8668,7 +8668,7 @@ body .color-grey {
     margin: 0 !important;
 }
 .accordion-tab-mob:hover {
-    color: #3357b4;
+    color: #c92020;
 }
 .accordion-tab-mob.active {
     color: #1d253f;
@@ -9106,7 +9106,7 @@ body .color-grey {
     text-transform: uppercase;
     transition: background-color 0.2s;
     cursor: pointer;
-    background-color: #3357b4;
+    background-color: #c92020;
     border: none;
     height: 40px;
 }
@@ -9116,8 +9116,8 @@ body .color-grey {
     content: '';
     bottom: 0;
     left: -20px;
-    border-right: 10px solid #3357b4;
-    border-bottom: 20px solid #3357b4;
+    border-right: 10px solid #c92020;
+    border-bottom: 20px solid #c92020;
     border-left: 10px solid transparent;
     border-top: 20px solid transparent;
     transition: border-color 0.2s;
@@ -9128,8 +9128,8 @@ body .color-grey {
     content: '';
     bottom: 0;
     right: -20px;
-    border-left: 10px solid #3357b4;
-    border-top: 20px solid #3357b4;
+    border-left: 10px solid #c92020;
+    border-top: 20px solid #c92020;
     border-right: 10px solid transparent;
     border-bottom: 20px solid transparent;
     transition: border-color 0.2s;
@@ -9233,7 +9233,7 @@ body .color-grey {
 }
 .map-full .prop-i .prop-i-infolist li {
     display: inline-block;
-    color: #3357b4;
+    color: #c92020;
     font-size: 16px;
     width: 33.33333%;
     padding-right: 5px;
@@ -9323,7 +9323,7 @@ body .color-grey {
     margin-right: 0;
 }
 .social-links li a {
-    color: #3357b4;
+    color: #c92020;
     transition: color 0.2s;
 }
 .social-links li a:hover {
@@ -9347,7 +9347,7 @@ body .color-grey {
     transition: color 0.2s;
 }
 .footer-bottom .f-bottom-logo a:hover {
-    color: #3357b4;
+    color: #c92020;
 }
 .footer-bottom .btn1 {
 
@@ -9430,7 +9430,7 @@ body .color-grey {
 .f2-about p a,
 .f2-subscribe p a,
 .f2-contacts p a {
-    color: #3357b4;
+    color: #c92020;
     transition: color 0.2s;
     font-weight: 500;
 }
@@ -9487,7 +9487,7 @@ body .color-grey {
     text-transform: uppercase;
     transition: background-color 0.2s;
     cursor: pointer;
-    background-color: #3357b4;
+    background-color: #c92020;
     border: none;
 }
 .f2-subscribe form button:hover,
@@ -9500,8 +9500,8 @@ body .color-grey {
     content: '';
     bottom: 0;
     left: -20px;
-    border-right: 10px solid #3357b4;
-    border-bottom: 20px solid #3357b4;
+    border-right: 10px solid #c92020;
+    border-bottom: 20px solid #c92020;
     border-left: 10px solid transparent;
     border-top: 20px solid transparent;
     transition: border-color 0.2s;
@@ -9512,8 +9512,8 @@ body .color-grey {
     content: '';
     bottom: 0;
     right: -20px;
-    border-left: 10px solid #3357b4;
-    border-top: 20px solid #3357b4;
+    border-left: 10px solid #c92020;
+    border-top: 20px solid #c92020;
     border-right: 10px solid transparent;
     border-bottom: 20px solid transparent;
     transition: border-color 0.2s;
@@ -9606,7 +9606,7 @@ ul.pagi {
     height: 40px;
     line-height: 40px;
     color: #ffffff;
-    background-color: #3357b4;
+    background-color: #c92020;
     box-shadow: 0 6px 18px 0 rgba(51,87,180,0.2);
     border-radius: 3px;
 }
@@ -9721,7 +9721,7 @@ BREADCRUMBS
     position: absolute;
     top: 10px;
     right: 0;
-    border-top: 5px solid #3357b4;
+    border-top: 5px solid #c92020;
     border-bottom: 5px solid transparent;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
@@ -9732,7 +9732,7 @@ BREADCRUMBS
 .mainttl-sort.opened .mainttl-sort-label:after {
     top: 5px;
     border-top: 5px solid transparent;
-    border-bottom: 5px solid #3357b4;
+    border-bottom: 5px solid #c92020;
 }
 .mainttl-sort .mainttl-sort-label span {
     color: #323946;
@@ -9772,7 +9772,7 @@ BREADCRUMBS
     color: #323946;
 }
 .mainttl-sort .mainttl-sort-values li.active a {
-    background-color: #3357b4;
+    background-color: #c92020;
     color: #ffffff;
     box-shadow: 0 6px 18px 0 rgba(51,87,180,0.2);
 }
@@ -9796,13 +9796,13 @@ BREADCRUMBS
     transition: color 0.2s;
 }
 .mainttl-view a:hover {
-    color: #3357b4;
+    color: #c92020;
 }
 .mainttl-view a.active {
     padding: 2px 9px;
     border-radius: 3px;
     color: #FFFFFF;
-    background-color: #3357b4;
+    background-color: #c92020;
 }
 body .mainttl {
     position: relative;
@@ -9893,7 +9893,7 @@ ul.cont-sections:after {
 }
 .cont-sections li.active a {
     padding: 2px 13px;
-    background-color: #3357b4;
+    background-color: #c92020;
     color: #ffffff;
     border-radius: 3px;
     box-shadow: 0 6px 18px 0 rgba(51,87,180,0.2);
@@ -9908,7 +9908,7 @@ ul.cont-sections:after {
     color: #f3a249;
 }
 .cont-sections li.cont-sections-first a:hover {
-    color: #3357b4;
+    color: #c92020;
 }
 
 @media only screen and (max-width : 991px) {
@@ -10075,11 +10075,11 @@ ul.cont-sections:after {
 }
 .banners-i .banners-i-count {
     margin: 0 0 10px;
-    color: #3357b4;
+    color: #c92020;
     font-size: 18px;
 }
 .banners-i .banners-i-count a {
-    color: #3357b4;
+    color: #c92020;
     border: none;
     transition: color 0.2s;
 }
