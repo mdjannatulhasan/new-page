@@ -251,7 +251,7 @@
 												data-300="transform: translateY(50px); opacity: 0">
 												<!-- col-lg-6-->
 												<h2 id="head-offset" class="head-hide fw-bold display-2 mb-0">Calgary</h2> 
-												<!-- Do not delete h2 here, to modify please change this title element from each slide. and also from line 235. You can add content slider-content -->
+												<!-- Do not delete h2 here, to modify please change this title element from each slide. and also from line 235. You can add content inside slider-content or leave it blank -->
 												<div class="slider-content">
 													<p>
 														Testing
@@ -286,7 +286,7 @@
 												data-300="transform: translateY(50px); opacity: 0">
 												<!-- col-lg-6-->
 												<h2 id="head-offset" class="head-hide fw-bold display-2 mb-0">Calgary</h2> 
-												<!-- Do not delete h2 here, to modify please change this title element from each slide. and also from line 235. You can add content slider-content -->
+												<!-- Do not delete h2 here, to modify please change this title element from each slide. and also from line 235. You can add content inside slider-content or leave it blank -->
 												<div class="slider-content">
 													<p>
 														Testing
@@ -321,7 +321,7 @@
 												data-300="transform: translateY(50px); opacity: 0">
 												<!-- col-lg-6-->
 												<h2 id="head-offset" class="head-hide fw-bold display-2 mb-0">Calgary</h2> 
-												<!-- Do not delete h2 here, to modify please change this title element from each slide. and also from line 235. You can add content slider-content -->
+												<!-- Do not delete h2 here, to modify please change this title element from each slide. and also from line 235. You can add content inside slider-content or leave it blank -->
 												<div class="slider-content">
 													<p>
 														Testing
@@ -1073,6 +1073,9 @@
 			sHeight.push(asd.offsetHeight)
 		}
 		var max = Math.max(...sHeight);
+		if(max <= 0){
+			max =2 ;
+		}
 		document.getElementById('title-fix').style.top = (objH/2-titleH/2-55-max/2)+'px';
 
 		for(var sliderContent of sliderContents ){
