@@ -122,10 +122,10 @@ ul.b-crumbs > li a:hover {
     margin: 12px 0 15px !important;
 }
 .prop-grid .prop-i {
-    padding: 0 38px 38px;
+    padding-bottom: 38px;
 }
 .prop2 .prop-i {
-    padding: 0 38px 60px !important; 
+    padding-bottom: 60px !important; 
 }
 .prop-i .prop-bottom {
     padding-top: 25px;
@@ -166,7 +166,6 @@ ul.b-crumbs > li a:hover {
     overflow: hidden;
     min-height: 160px;
     border-radius: 3px;
-    margin-top: -68px;
 }
 .video-bg .video-header{
     position: absolute;
@@ -271,14 +270,16 @@ li > i{
 
 @media only screen and (max-width: 1229px){
     .post-slider .swiper-pagination-fraction{
-        margin: 0 0 75px 340px !important;
+        margin: 0 0 138px 340px !important;
     }
-    
 }
 @media only screen and (max-width:992px) {
     #header.dark {
         background-color: #333!important;
         
+    }
+    .video-bg{
+        margin-top: 0px;
     }
     .header-row{
         align-items: center !important;
