@@ -50,6 +50,8 @@ body,html, #wrapper{
 
 .v-padding{
     min-height: 85vh;
+    /* height: 100vh; */
+    max-height: 2000px;
 }
 .header-overlay::after {
     z-index: 2 !important;
@@ -59,8 +61,9 @@ body,html, #wrapper{
     padding: 0 0 !important;
 }
 .min-vh-85{
-    min-height: 105vh;
-    max-height: 1000px;
+    min-height: 800px;
+    height: 105vh;
+    max-height: 2000px;
 }
 
 ul.b-crumbs > li a:hover {
@@ -111,7 +114,11 @@ ul.b-crumbs > li a:hover {
 #slider{
     height: 100%;
 }
-
+.slider-content{
+    margin-left: 15px;
+    position: relative;
+    z-index: 5;
+}
 .prop-i-rating{
     margin: 0;
 }
@@ -255,7 +262,7 @@ li > i{
         max-width: 1116px !important;width: 100% !important;
     }
     .v-padding{
-        min-height: 85vh;
+        max-height: 2000px;
         padding: 0 !important;
     }
 }
@@ -288,6 +295,11 @@ li > i{
         margin: 0 0 10px 230px !important;
     }
     
+}
+@media only screen and (max-width:800px) {
+    .slider-content{
+        margin-top: 0 !important;
+    }
 }
 @media only screen and (max-width:768px) {
     

@@ -239,18 +239,30 @@
 
 				<div class="swiper-wrapper">
 					<div class="swiper-slide post-slide">
-						<div id="slider" class="slider-element" style="background: linear-gradient(to right, rgba(0,0,0, 0.4) 20%, transparent 100%), url('img/property.jpg') no-repeat center center / cover;">
+						<div id="slider1" class="slider-element" style="background: linear-gradient(to right, rgba(0,0,0, 0.4) 20%, transparent 100%), url('img/property.jpg') no-repeat center center / cover;">
 
-							<div class="">
+							<div class="container">
 								<div class="vertical-middle v-padding">
 
 									<div class="row justify-content-between">
-										<div class="dark py-5 py-md-0">
+										<div class="dark py-md-0">
 					
 											<div class="parallax" data-0="transform: translateY(0px); opacity: 1"
 												data-300="transform: translateY(50px); opacity: 0">
 												<!-- col-lg-6-->
-												<h2 id="head-offset" class="head-hide fw-bold display-2 mb-0">Calgary</h2>
+												<h2 id="head-offset" class="head-hide fw-bold display-2 mb-0">Calgary</h2> 
+												<!-- Do not delete h2 here, to modify please change this title element from each slide. and also from line 235. You can add content slider-content -->
+												<div class="slider-content">
+													<p>
+														Testing
+													</p>
+													<p>
+														Testing
+													</p>
+													<p>
+														Testing
+													</p>
+												</div>
 											</div>
 					
 										</div>
@@ -262,17 +274,30 @@
 						</div>
 					</div>
 					<div class="swiper-slide post-slide">
-						<div id="slider" class="slider-element" style="background: linear-gradient(to right, rgba(0,0,0, 0.4) 20%, transparent 100%), url('img/property2.jpg') no-repeat center center / cover;">
+						<div id="slider1" class="slider-element" style="background: linear-gradient(to right, rgba(0,0,0, 0.4) 20%, transparent 100%), url('img/property2.jpg') no-repeat center center / cover;">
 
-							<div class=" v-padding">
-								<div class="vertical-middle">
+							<div class="container">
+								<div class="vertical-middle v-padding">
 
 									<div class="row justify-content-between">
-										<div class="dark py-5 py-md-0">
+										<div class="dark py-md-0">
 					
 											<div class="parallax" data-0="transform: translateY(0px); opacity: 1"
 												data-300="transform: translateY(50px); opacity: 0">
-												<h2 class="head-hide fw-bold display-2 mb-0">Calgary</h2>
+												<!-- col-lg-6-->
+												<h2 id="head-offset" class="head-hide fw-bold display-2 mb-0">Calgary</h2> 
+												<!-- Do not delete h2 here, to modify please change this title element from each slide. and also from line 235. You can add content slider-content -->
+												<div class="slider-content">
+													<p>
+														Testing
+													</p>
+													<p>
+														Testing
+													</p>
+													<p>
+														Testing
+													</p>
+												</div>
 											</div>
 					
 										</div>
@@ -284,17 +309,30 @@
 						</div>
 					</div>
 					<div class="swiper-slide post-slide">
-						<div id="slider" class="slider-element" style="background: linear-gradient(to right, rgba(0,0,0, 0.4) 20%, transparent 100%), url('img/property3.jpg') no-repeat center center / cover;">
+						<div id="slider1" class="slider-element" style="background: linear-gradient(to right, rgba(0,0,0, 0.4) 20%, transparent 100%), url('img/property3.jpg') no-repeat center center / cover;">
 
-							<div class=" v-padding">
-								<div class="vertical-middle ">
+							<div class="container">
+								<div class="vertical-middle v-padding">
 
 									<div class="row justify-content-between">
-										<div class=" dark py-5 py-md-0">
+										<div class="dark py-md-0">
 					
 											<div class="parallax" data-0="transform: translateY(0px); opacity: 1"
 												data-300="transform: translateY(50px); opacity: 0">
-												<h2 class="head-hide fw-bold display-2 mb-0">Calgary</h2>
+												<!-- col-lg-6-->
+												<h2 id="head-offset" class="head-hide fw-bold display-2 mb-0">Calgary</h2> 
+												<!-- Do not delete h2 here, to modify please change this title element from each slide. and also from line 235. You can add content slider-content -->
+												<div class="slider-content">
+													<p>
+														Testing
+													</p>
+													<p>
+														Testing
+													</p>
+													<p>
+														Testing
+													</p>
+												</div>
 											</div>
 					
 										</div>
@@ -1021,12 +1059,52 @@
 				);
 			}
 		};
+		
 		var objH= document.getElementById('slider-hero').offsetHeight;
 		var titleH= document.getElementById('title-fix').offsetHeight;
+		var contentH= document.querySelector('.slider-content').offsetHeight;
 		var anotherH= document.getElementById('head-offset').offsetTop;
+		var sliderContents = document.getElementsByClassName('slider-content');
+		
+		
+		console.log(sliderContents)
+		var sHeight =[] ;
+		for(var asd of sliderContents){
+			sHeight.push(asd.offsetHeight)
+		}
+		var max = Math.max(...sHeight);
+		document.getElementById('title-fix').style.top = (objH/2-titleH/2-55-max/2)+'px';
 
-		document.getElementById('title-fix').style.top = (anotherH-55)+'px';
-		document.querySelector('#title-fix h2').style.color = 'red !important';
+		for(var sliderContent of sliderContents ){
+			sliderContent.style.marginTop = '-'+max+'px';
+		};
+
+		window.addEventListener('resize',function(){
+		objH= document.getElementById('slider-hero').offsetHeight;
+		titleH= document.getElementById('title-fix').offsetHeight;
+		contentH= document.querySelectorAll('.slider-content').offsetHeight;
+		anotherH= document.getElementById('head-offset').offsetTop;
+		sliderContents = document.getElementsByClassName('slider-content');
+		
+		for(var item of sliderContents){
+			document.getElementById('title-fix').style.top = (objH/2-titleH/2-55-max/2)+'px';
+		}
+		
+			for(var sliderContent of sliderContents ){
+				if(screen.width > 991){
+					for(var sliderContent of sliderContents ){
+						sliderContent.style.marginTop = '-'+max+'px';
+					}
+				}else {
+					sliderContent.style.marginTop = '0px';
+				}
+			}
+			// if(contentH > 60){
+			// 	document.querySelector('.v-padding').style.height = screen.height + contentH;
+			// }
+			
+		});
+		
 		document.getElementById('slider-hero').addEventListener('onresize',function(){
 			document.getElementById('title-fix').style.top = (anotherH)+'px';
 		});
